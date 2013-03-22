@@ -30,7 +30,7 @@
             <srcformatvalue></srcformatvalue>
             <target></target>
             <targetdatatype></targetdatatype>
-            <testvalue>abcat0014000</testvalue>
+            <testvalue>abcat0101000</testvalue>
             <value></value>
         </inparam>
         <inparam>
@@ -60,41 +60,89 @@
         <ntlmHost></ntlmHost>
         <outtemplate>&lt;?xml-stylesheet href="/v1/xsl/xml_pretty_printer.xsl" type="text/xsl"?&gt;
 
-&lt;categories canonicalUrl="/v1/categories(id=&amp;quot;abcat0014000&amp;quot;)?apiKey=tu48pbdksamsjgvwvgmk34ne" currentPage="1" from="1" partial="false" queryTime="0.005" to="1" total="1" totalPages="1" totalTime="0.008"&gt;
+&lt;categories canonicalUrl="/v1/categories(id=&amp;quot;abcat0101000&amp;quot;)?apiKey=tu48pbdksamsjgvwvgmk34ne" currentPage="1" from="1" partial="false" queryTime="0.005" to="1" total="1" totalPages="1" totalTime="0.013"&gt;
    &lt;category&gt;
-      &lt;id&gt;abcat0014000&lt;/id&gt;
-      &lt;name&gt;Kids&lt;/name&gt;
-      &lt;active&gt;false&lt;/active&gt;
+      &lt;id&gt;abcat0101000&lt;/id&gt;
+      &lt;name&gt;TVs&lt;/name&gt;
+      &lt;active&gt;true&lt;/active&gt;
       &lt;path&gt;
          &lt;category&gt;
             &lt;id&gt;cat00000&lt;/id&gt;
             &lt;name&gt;Best Buy&lt;/name&gt;
          &lt;/category&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0010000&lt;/id&gt;
-            &lt;name&gt;Gift Center&lt;/name&gt;
+            &lt;id&gt;abcat0100000&lt;/id&gt;
+            &lt;name&gt;TV &amp;amp; Home Theater&lt;/name&gt;
          &lt;/category&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0014000&lt;/id&gt;
-            &lt;name&gt;Kids&lt;/name&gt;
+            &lt;id&gt;abcat0101000&lt;/id&gt;
+            &lt;name&gt;TVs&lt;/name&gt;
          &lt;/category&gt;
       &lt;/path&gt;
       &lt;subCategories&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0014001&lt;/id&gt;
-            &lt;name&gt;Electronics&lt;/name&gt;
+            &lt;id&gt;abcat0101001&lt;/id&gt;
+            &lt;name&gt;All Flat-Panel TVs&lt;/name&gt;
          &lt;/category&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0014003&lt;/id&gt;
-            &lt;name&gt;Gaming&lt;/name&gt;
+            &lt;id&gt;pcmcat193400050017&lt;/id&gt;
+            &lt;name&gt;LCD TVs&lt;/name&gt;
          &lt;/category&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0020000&lt;/id&gt;
-            &lt;name&gt;Toys&lt;/name&gt;
+            &lt;id&gt;pcmcat193400050018&lt;/id&gt;
+            &lt;name&gt;LED TVs&lt;/name&gt;
          &lt;/category&gt;
          &lt;category&gt;
-            &lt;id&gt;abcat0014002&lt;/id&gt;
-            &lt;name&gt;Music, Movies &amp;amp; More&lt;/name&gt;
+            &lt;id&gt;pcmcat193400050016&lt;/id&gt;
+            &lt;name&gt;Plasma TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat205800050000&lt;/id&gt;
+            &lt;name&gt;3D TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat220700050011&lt;/id&gt;
+            &lt;name&gt;Smart TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101005&lt;/id&gt;
+            &lt;name&gt;TV/DVD Combos&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101002&lt;/id&gt;
+            &lt;name&gt;Rear Projection TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0107000&lt;/id&gt;
+            &lt;name&gt;TV &amp;amp; Home Theater Accessories&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;pcmcat138100050024&lt;/id&gt;
+            &lt;name&gt;TV &amp;amp; Home Theater Services&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101003&lt;/id&gt;
+            &lt;name&gt;xFront Projectors&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101008&lt;/id&gt;
+            &lt;name&gt;xScreens&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101004&lt;/id&gt;
+            &lt;name&gt;xPortable&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101006&lt;/id&gt;
+            &lt;name&gt;Tube TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0101007&lt;/id&gt;
+            &lt;name&gt;Kid's TVs&lt;/name&gt;
+         &lt;/category&gt;
+         &lt;category&gt;
+            &lt;id&gt;abcat0107001&lt;/id&gt;
+            &lt;name&gt;TV Accessories&lt;/name&gt;
          &lt;/category&gt;
       &lt;/subCategories&gt;
    &lt;/category&gt;

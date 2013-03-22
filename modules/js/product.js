@@ -2,7 +2,7 @@
 ****************************************************************
 *	Name    : getSrchProduct
 *	Author  : Kony Solutions
-*	Purpose : This function invokes BestBuy service.
+*	Purpose : This function invokes BestBuy service to search product.
 ****************************************************************
 */
 
@@ -14,7 +14,9 @@ function getSrchProduct()
 	frmProduct.lblSrch.text="Results for '"+srchKey+"'";
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	var sProductList = appmiddlewareinvokerasync(sPrdList, prodListCallback);
+	scatName = srchKey;
 	hbxSearch.txtbxSrch.text="";
+	
 }
 
 /*
@@ -26,8 +28,9 @@ function getSrchProduct()
 */
 function prodListCallback(status, gcList)
 {	
+	
 	if (status == 400){
-		if (gcList["opstatus"] == 0) {
+			if (gcList["opstatus"] == 0) {
 			var tmp =[];
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
 				for(var i=0;i<gcList["productsCollection"].length;i++){
@@ -45,7 +48,7 @@ function prodListCallback(status, gcList)
 	          }
 	         else
 	         {
-	         frmProduct.lblInfo.text = "No details found for product "+scatName;
+	         frmProduct.lblInfo.text = "No details found for product '"+scatName+"'";
 	         frmProduct.lblInfo.setVisibility(true);
 	         frmProduct.segProdList.setData([]); 
 	         }

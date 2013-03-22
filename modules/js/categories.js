@@ -23,20 +23,44 @@ function getCatList()
 function catListCallback(status, gcList)
 {	
 	if (status == 400){
-		kony.print("GClist ..."+gcList);
 		if (gcList["opstatus"] == 0) {
 			var tmp =[];
+			var childData=[];
 			if (gcList["category"] != null || gcList["category"] != undefined ){
 				for(var i=0;i<gcList["category"].length;i++){
+				//#ifdef desktopweb
+					childData.push({
+				            template: hbxDetails,
+				            "lblDetails": {
+				                "text": gcList["category"][i]["name"],
+				                "skin": "lblWhiteMenu"
+           					}
+           					});
+				//#else
 					tmp.push({
 						"categoryName":gcList["category"][i]["name"],
 						"categoryID":gcList["category"][i]["id"]
 							});
+				//#endif
+									
 					}	
-					frmHome.segcatList.setData(tmp);
-					frmHome.show();
-					kony.application.dismissLoadingScreen();   
-					             
+					//#ifdef desktopweb
+						  var menudata = {
+								        template: hbxProduct,
+								        "lblProduct": {
+								            "text": "Products",
+								            "skin": "lblMenu"
+								        },
+								        children: childData
+  									  };
+  						    frmHome.menucontainer.setDataAt(menudata,0);
+  						    resulttable=gcList["category"];
+					//#else
+						frmHome.segcatList.setData(tmp);
+						frmHome.show();
+						kony.application.dismissLoadingScreen();   
+					//#endif
+										             
 	          }
 	     }
 	     else{
