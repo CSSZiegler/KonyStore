@@ -44,7 +44,7 @@
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="backward_compatibility_mode" value="false"/>
     <attributes name="appversionkey" value="1.0.0"/>
-    <attributes name="removeprintstatements" value="false"/>
+    <attributes name="removeprintstatements" value="true"/>
     <attributes name="mwcontextkey" value=""/>
     <attributes name="apploadeventkey" value="None"/>
     <attributes name="CALL_PHONE" value="false"/>
@@ -225,7 +225,7 @@
     <attributes name="wp8fliplargekey" value=""/>
     <attributes name="BIND_DEVICE_ADMIN" value="false"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
-    <attributes name="build" value="debug"/>
+    <attributes name="build" value="release"/>
     <attributes name="winbuildoption" value="true"/>
     <attributes name="MODIFY_PHONE_STATE" value="false"/>
     <attributes name="Pictures_Library_Access" value="true"/>

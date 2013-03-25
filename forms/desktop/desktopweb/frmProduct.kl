@@ -12938,11 +12938,12 @@ if(scatName != frmProduct.segcatList.selectedItems[0].categoryName)
                                     <exprMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = hbxSearch.txtbxSrch.text;
+                                            <value>srchKey = frmProduct.txtbxSrch1.text;
+frmProduct.txtbxSrch1.text="";
 if(srchKey==""||srchKey==null||srchKey==undefined)
 	alert("Enter product name to search !!")
 else
-	getSrchProduct();
+	getSrchProductweb()
 </value>
                                         </entry>
                                     </exprMap>
@@ -13633,7 +13634,7 @@ else
                                     <exprMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = frmHome.txtbxSrch1.text;
+                                            <value>srchKey = frmProduct.txtbxSrch1.text;
 frmProduct.txtbxSrch1.text="";
 if(srchKey==""||srchKey==null||srchKey==undefined)
 	alert("Enter product name to search !!")

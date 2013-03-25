@@ -8604,11 +8604,12 @@
                                     <exprMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = hbxSearch.txtbxSrch.text;
+                                            <value>srchKey = frmProductSrch.txtbxSrch1.text;
+frmProductSrch.txtbxSrch1.text="";
 if(srchKey==""||srchKey==null||srchKey==undefined)
 	alert("Enter product name to search !!")
 else
-	getSrchProduct();
+	getSrchProductweb()
 </value>
                                         </entry>
                                     </exprMap>
@@ -13802,12 +13803,20 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                                 <key>js</key>
                                                 <value>frmProductSrch["segProdList"]["selectedItems"][0]["prodImg"]</value>
                                             </entry>
+                                            <entry>
+                                                <key>lua</key>
+                                                <value>frmProductSrch["segProdList"]["selectedItems"][0]["prodImg"]</value>
+                                            </entry>
                                         </srcMap>
                                     </mapping>
                                     <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProductSrch[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblPName&quot;]" msrcplatform="0" mdestplatform="37" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.prdName.Common.text">
                                         <srcMap>
                                             <entry>
                                                 <key>js</key>
+                                                <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblPName"]</value>
+                                            </entry>
+                                            <entry>
+                                                <key>lua</key>
                                                 <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblPName"]</value>
                                             </entry>
                                         </srcMap>
@@ -13818,6 +13827,10 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                                 <key>js</key>
                                                 <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblPrice"]</value>
                                             </entry>
+                                            <entry>
+                                                <key>lua</key>
+                                                <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblPrice"]</value>
+                                            </entry>
                                         </srcMap>
                                     </mapping>
                                     <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProductSrch[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblReview&quot;]" msrcplatform="0" mdestplatform="37" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblReview.Common.text">
@@ -13826,12 +13839,20 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                                 <key>js</key>
                                                 <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblReview"]</value>
                                             </entry>
+                                            <entry>
+                                                <key>lua</key>
+                                                <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblReview"]</value>
+                                            </entry>
                                         </srcMap>
                                     </mapping>
                                     <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProductSrch[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblDesc&quot;]" msrcplatform="0" mdestplatform="37" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblDesc.Common.text">
                                         <srcMap>
                                             <entry>
                                                 <key>js</key>
+                                                <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblDesc"]</value>
+                                            </entry>
+                                            <entry>
+                                                <key>lua</key>
                                                 <value>frmProductSrch["segProdList"]["selectedItems"][0]["lblDesc"]</value>
                                             </entry>
                                         </srcMap>

@@ -9221,11 +9221,12 @@ frmProdDetails.lblDesc.text = "";</value>
                                     <exprMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = hbxSearch.txtbxSrch.text;
+                                            <value>srchKey = frmProdDetails.txtbxSrch1.text;
+frmProdDetails.txtbxSrch1.text="";
 if(srchKey==""||srchKey==null||srchKey==undefined)
 	alert("Enter product name to search !!")
 else
-	getSrchProduct();
+	getSrchProductweb()
 </value>
                                         </entry>
                                     </exprMap>
