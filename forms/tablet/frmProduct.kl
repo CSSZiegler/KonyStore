@@ -418,6 +418,24 @@
         <headerId>hdrLogo</headerId>
         <footerId>None</footerId>
         <title></title>
+        <preShow_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>hbxSearch.txtbxSrch.text = "";</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </preShow_root>
         <init>
             <evtSequence>
                 <enabled>true</enabled>
@@ -583,7 +601,7 @@
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>true</visible>
+            <visible>false</visible>
             <textChecked>true</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
@@ -634,7 +652,7 @@
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -708,6 +726,7 @@
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -944,10 +963,10 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>120</left>
+                    <right>120</right>
+                    <top>10</top>
+                    <bottom>10</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -1398,7 +1417,7 @@
                     <width>25</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>lblcat</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -1972,6 +1991,7 @@
                 <parent_wrapping>word</parent_wrapping>
                 <parent_longText>false</parent_longText>
                 <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
                 <iphone_wrapping>0</iphone_wrapping>
                 <iphone_contentAlignment>0</iphone_contentAlignment>
                 <iphone_longtext>false</iphone_longtext>
@@ -2839,8 +2859,8 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>120</left>
+                    <right>120</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
@@ -3293,7 +3313,7 @@
                     <width>100</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>lblData</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -4107,8 +4127,8 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>120</left>
+                    <right>120</right>
                     <top>1</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
@@ -4561,7 +4581,7 @@
                     <width>100</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>lblData</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -5379,11 +5399,11 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>120</left>
+                    <right>120</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
                 <winmobile>
@@ -5846,7 +5866,7 @@
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <widgetSkin>seg2Focus</widgetSkin>
+            <widgetSkin>seg2Foc</widgetSkin>
             <rowSkin>Skin Defaults</rowSkin>
             <rowFocusSkin>SegRowFoc</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
@@ -5999,7 +6019,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <exprMap>
                             <entry>
                                 <key>js</key>
-                                <value>kony.application.dismissLoadingScreen(); </value>
+                                <value>kony.application.dismissLoadingScreen(); 
+</value>
                             </entry>
                         </exprMap>
                     </actionList>
@@ -6284,8 +6305,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                     <windows8>
                         <left>1</left>
                         <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <top>5</top>
+                        <bottom>5</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -7356,8 +7377,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth>80</referenceWidth>
-                        <referenceHeight>80</referenceHeight>
+                        <referenceWidth></referenceWidth>
+                        <referenceHeight></referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -7935,7 +7956,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <contentAlign>4</contentAlign>
                         <defaultImageText>error_loading.png</defaultImageText>
                         <animationText>imgloading.png</animationText>
-                        <scale_mode>0</scale_mode>
+                        <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                         <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -8657,7 +8678,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <width>100</width>
                             <height>28</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>lblData</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -8834,7 +8855,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>1</left>
+                                <left>0</left>
                                 <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
@@ -9903,6 +9924,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <winphone8_position>0</winphone8_position>
             </children>
         </children>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

@@ -102,6 +102,7 @@
                <param datatype="string" format="None" formatvalue="" name="imgProductMediumImage" sms-name="" src="product/mediumImage" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="sku" sms-name="" src="product/sku" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="numberOfReviews" sms-name="" src="product/customerReviewCount" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="imgProductImage" sms-name="" src="product/image" target="response"/>
             </dataset>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
@@ -159,12 +160,12 @@
             <config-param name="server.auth.ntlm.domain" value=""/>
          </service-config>
          <service-input>
-            <param datatype="string" encode="true" name="keyword" sms-name="" src="" value=""/>
-            <param datatype="string" encode="true" name="apiKey" sms-name="" src="" value=""/>
+            <param datatype="string" encode="false" name="keyword" sms-name="" src="" value=""/>
+            <param datatype="string" encode="false" name="apiKey" sms-name="" src="" value=""/>
          </service-input>
          <service-output>
             <dataset id="productsCollection" src="//products">
-               <param datatype="string" format="None" formatvalue="" name="imgProductImage" sms-name="" src="product/thumbnailImage" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="imgPrdctImage" sms-name="" src="product/thumbnailImage" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="lblOnSale" sms-name="" src="product/onSale" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="lblProductName" sms-name="" src="product/name" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="lblProductPrice" sms-name="" src="product/regularPrice" target="response"/>
@@ -174,6 +175,7 @@
                <param datatype="string" format="None" formatvalue="" name="imgProductMediumImage" sms-name="" src="product/mediumImage" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="sku" sms-name="" src="product/sku" target="response"/>
                <param datatype="string" format="None" formatvalue="" name="numberOfReviews" sms-name="" src="product/customerReviewCount" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="imgProductImage" sms-name="" src="product/image" target="response"/>
             </dataset>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>

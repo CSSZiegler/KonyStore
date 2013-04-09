@@ -8,15 +8,16 @@
 
 function getSrchProduct()
 {
-	var sPrdList = { serviceID:"productSearch",keyword:srchKey, apiKey:key };
+	
+	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
+	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:key };
 	frmProduct.hboxCat.setVisibility(false);
 	frmProduct.hbxSrch.setVisibility(true); 
 	frmProduct.lblSrch.text="Results for '"+srchKey+"'";
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	var sProductList = appmiddlewareinvokerasync(sPrdList, prodListCallback);
 	scatName = srchKey;
-	hbxSearch.txtbxSrch.text="";
-	
+		
 }
 
 /*
@@ -31,11 +32,17 @@ function prodListCallback(status, gcList)
 	
 	if (status == 400){
 			if (gcList["opstatus"] == 0) {
-			var tmp =[];
+			var tmp =[],img;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
 				for(var i=0;i<gcList["productsCollection"].length;i++){
+					//#ifdef windows8
+						img = gcList["productsCollection"][i]["imgProductImage"];
+					//#else
+						img = gcList["productsCollection"][i]["imgProductMediumImage"];
+					//#endif
+					
 					tmp.push({
-						"prodImg":gcList["productsCollection"][i]["imgProductMediumImage"],
+						"prodImg":img,
 						"lblPName":gcList["productsCollection"][i]["lblProductName"],
 						"lblPrice":"$"+gcList["productsCollection"][i]["lblProductPrice"],
 						"lblDesc":gcList["productsCollection"][i]["lblProductDescription"],
@@ -44,6 +51,7 @@ function prodListCallback(status, gcList)
 							});
 					}	
 					frmProduct.segProdList.setData(tmp);
+					frmProduct.segProdList.setVisibility(true);
 					frmProduct.lblInfo.setVisibility(false);             
 	          }
 	         else
@@ -51,6 +59,7 @@ function prodListCallback(status, gcList)
 	         frmProduct.lblInfo.text = "No details found for product '"+scatName+"'";
 	         frmProduct.lblInfo.setVisibility(true);
 	         frmProduct.segProdList.setData([]); 
+	         frmProduct.segProdList.setVisibility(false);
 	         }
 	         	frmProduct.prdName.text = scatName;
 	         	frmProduct.show(); 
@@ -58,6 +67,7 @@ function prodListCallback(status, gcList)
 	     }
 	     else{
             	alert("Please check network connection and try again.");
+            	frmProduct.segProdList.setVisibility(false);
             	kony.application.dismissLoadingScreen();    	
    				return;	                 
 	     }

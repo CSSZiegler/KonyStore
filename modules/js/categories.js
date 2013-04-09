@@ -112,6 +112,7 @@ function subCatListCallback(status, gcList)
 					if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
 					{
 						frmSubCat.lblSubCat.text = scatName;
+						frmSubCat.lblSubCat.skin = "lblBlue";
 						frmSubCat.lblSubCat.setVisibility(true);
 					}
 					else if(frmSubCat.lblSubCat2.text == "" || frmSubCat.lblSubCat2.text == null || frmSubCat.lblSubCat2.text == undefined)
@@ -128,9 +129,13 @@ function subCatListCallback(status, gcList)
 	          else
 	          {
 	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:key };
-	          	frmProduct.hboxCat.setVisibility(true);
-	          	hbxSearch.setVisibility(true);
-				frmProduct.hbxSrch.setVisibility(false); 
+	           	frmProduct.hboxCat.setVisibility(true);
+	          	//#ifdef windows8
+	          		
+	          	//#else
+	          		hbxSearch.setVisibility(true);
+	          	//#endif
+	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);
 				          	          
 	          }

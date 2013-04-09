@@ -136,7 +136,8 @@ function prodListCallbackWeb(status, gcList)
 
 function getSrchProductweb()
 {
-	var sPrdList = { serviceID:"productSearch",keyword:srchKey, apiKey:key };
+	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
+	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:key };
 	frmProductSrch.lblSrch.text="Results for '"+srchKey+"'";
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	var sProductList = appmiddlewareinvokerasync(sPrdList, srchProdListCallback);

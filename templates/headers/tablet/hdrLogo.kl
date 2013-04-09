@@ -708,6 +708,7 @@
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -775,9 +776,9 @@
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
                 <mixed_android>true</mixed_android>
-                <mixed_android_tab>true</mixed_android_tab>
+                <mixed_android_tab>false</mixed_android_tab>
                 <mixed_bb>true</mixed_bb>
-                <mixed_ipad>true</mixed_ipad>
+                <mixed_ipad>false</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
@@ -787,7 +788,7 @@
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>true</rc_windows8>
+                <rc_windows8>false</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
@@ -2093,9 +2094,9 @@
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
                 <mixed_android>true</mixed_android>
-                <mixed_android_tab>true</mixed_android_tab>
+                <mixed_android_tab>false</mixed_android_tab>
                 <mixed_bb>true</mixed_bb>
-                <mixed_ipad>true</mixed_ipad>
+                <mixed_ipad>false</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
@@ -2105,7 +2106,7 @@
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>true</rc_windows8>
+                <rc_windows8>false</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
@@ -3319,6 +3320,8 @@
                         <seqname></seqname>
                     </evtSequence>
                 </onTextChange>
+                <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
+                <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
                 <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
                 <iphone_paste_board>4</iphone_paste_board>
                 <iphone_npi>0</iphone_npi>
@@ -3339,6 +3342,7 @@
                 <iphoneCloseButtonReqd>true</iphoneCloseButtonReqd>
                 <iphoneCloseButtonText>Done</iphoneCloseButtonText>
                 <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
+                <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
                 <ipad_closeButtonText>Done</ipad_closeButtonText>
                 <ipad_showCloseButton>true</ipad_showCloseButton>
                 <ipad_label_in_keyboard>0</ipad_label_in_keyboard>

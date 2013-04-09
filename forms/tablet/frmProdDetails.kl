@@ -428,13 +428,17 @@
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>hbxSearch.setVisibility(false);
+                            <value>//#ifdef windows8
+	
+//#else
+	hbxSearch.setVisibility(false);
+//#endif
+
 if(frmProdDetails.lblReview.text=="")
 {
 	frmProdDetails.lblReview.text="No Reviews";	
 	frmProdDetails.imgReview.setVisibility(false);
 }
-
 if( frmProdDetails.lblDesc.text == undefined)
 frmProdDetails.lblDesc.text = "";	</value>
                         </entry>
@@ -446,17 +450,53 @@ frmProdDetails.lblDesc.text = "";	</value>
         </preShow_root>
         <onHide_root>
             <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
+                <actionList xsi:type="eventPreprocessDecisionAction">
+                    <mainaction>
+                        <mainaction xsi:type="eventExpressionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>5</type>
+                            <expr></expr>
+                            <exprMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>hbxSearch.setVisibility(true);</value>
+                                </entry>
+                            </exprMap>
+                        </mainaction>
+                        <enabled>true</enabled>
+                        <name>true</name>
+                        <type>0</type>
+                    </mainaction>
                     <enabled>true</enabled>
                     <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
+                    <type>8</type>
+                    <platMap>
                         <entry>
-                            <key>js</key>
-                            <value>hbxSearch.setVisibility(true);</value>
+                            <key>spaipad</key>
+                            <value>true</value>
                         </entry>
-                    </exprMap>
+                        <entry>
+                            <key>spatabandroid</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>windows8</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>spatabwindows</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>ipad</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>tabrcandroid</key>
+                            <value>true</value>
+                        </entry>
+                    </platMap>
                 </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
@@ -597,7 +637,7 @@ frmProdDetails.lblDesc.text = "";	</value>
             <leftButtonFocusSkinID>Skin Defaults</leftButtonFocusSkinID>
             <leftButtonI18Key>None</leftButtonI18Key>
             <leftButtonSkinID>Skin Defaults</leftButtonSkinID>
-            <leftButtonText></leftButtonText>
+            <leftButtonText>Back</leftButtonText>
             <leftEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -608,14 +648,14 @@ frmProdDetails.lblDesc.text = "";	</value>
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
+            <leftSideView>2</leftSideView>
             <leftTitle></leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
-            <leftbtnImgPath></leftbtnImgPath>
+            <leftbtnImgPath>back.png</leftbtnImgPath>
             <rightSideView>0</rightSideView>
             <rightTitle></rightTitle>
             <rightTitleEvtData>
@@ -627,8 +667,8 @@ frmProdDetails.lblDesc.text = "";	</value>
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>true</visible>
-            <textChecked>true</textChecked>
+            <visible>false</visible>
+            <textChecked>false</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
         <bb_undockappheader>false</bb_undockappheader>
@@ -678,7 +718,7 @@ frmProdDetails.lblDesc.text = "";	</value>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
@@ -752,6 +792,7 @@ frmProdDetails.lblDesc.text = "";	</value>
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -988,10 +1029,10 @@ frmProdDetails.lblDesc.text = "";	</value>
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>120</left>
+                    <right>120</right>
+                    <top>10</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -1249,7 +1290,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                 <windows8>
                     <left>1</left>
                     <right>1</right>
-                    <top>1</top>
+                    <top>10</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>
@@ -2062,8 +2103,8 @@ frmProdDetails.lblDesc.text = "";	</value>
                     </sizePercent>
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
-                    <referenceWidth>80</referenceWidth>
-                    <referenceHeight>80</referenceHeight>
+                    <referenceWidth></referenceWidth>
+                    <referenceHeight></referenceHeight>
                     <localeId>None</localeId>
                     <visible>true</visible>
                     <rendererData>
@@ -2641,7 +2682,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                     <contentAlign>4</contentAlign>
                     <defaultImageText>error_loading.png</defaultImageText>
                     <animationText>imgloading.png</animationText>
-                    <scale_mode>0</scale_mode>
+                    <scale_mode>1</scale_mode>
                     <itemSkinId>Skin Defaults</itemSkinId>
                     <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                     <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -3363,7 +3404,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                         <width>100</width>
                         <height>22</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>lblData</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -4622,7 +4663,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                             <width>45</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>lblData</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -6518,7 +6559,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                             <width>44</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>lblData</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -7145,7 +7186,7 @@ frmProdDetails.lblDesc.text = "";	</value>
                             <width>56</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>lblData</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -8652,9 +8693,9 @@ frmProdDetails.lblDesc.text = "";	</value>
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
+                    <left>120</left>
+                    <right>120</right>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </windows8>
@@ -9075,6 +9116,7 @@ frmProdDetails.lblDesc.text = "";	</value>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

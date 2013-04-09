@@ -751,6 +751,7 @@ frmProdDetails.lblDesc.text = "";</value>
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -858,13 +859,13 @@ frmProdDetails.lblDesc.text = "";</value>
             </rendererData>
             <margins>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>3</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
@@ -875,11 +876,11 @@ frmProdDetails.lblDesc.text = "";</value>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>3</left>
-                    <right>3</right>
-                    <top>3</top>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
                     <left>0</left>
@@ -987,19 +988,19 @@ frmProdDetails.lblDesc.text = "";</value>
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
-                </windows8>
-                <windows8_override>true</windows8_override>
-                <winmobile>
                     <left>0</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>px</unit>
+                </windows8>
+                <windows8_override>true</windows8_override>
+                <winmobile>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>3</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -1009,15 +1010,15 @@ frmProdDetails.lblDesc.text = "";</value>
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>false</winmobile_override>
+                <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>3</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -1136,9 +1137,9 @@ frmProdDetails.lblDesc.text = "";</value>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>%</unit>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
                     <left>0</left>
@@ -1246,10 +1247,10 @@ frmProdDetails.lblDesc.text = "";</value>
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -1268,15 +1269,15 @@ frmProdDetails.lblDesc.text = "";</value>
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>false</winmobile_override>
+                <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -1516,7 +1517,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>%</unit>
+                        <unit>px</unit>
                     </defaults>
                     <desktop_kiosk>
                         <left>0</left>
@@ -1624,10 +1625,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -1648,10 +1649,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -1756,11 +1757,11 @@ frmProdDetails.lblDesc.text = "";</value>
                     <android>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>3</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </android>
-                    <android_override>false</android_override>
+                    <android_override>true</android_override>
                     <bb>
                         <left>0</left>
                         <right>0</right>
@@ -1775,7 +1776,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>%</unit>
+                        <unit>px</unit>
                     </defaults>
                     <desktop_kiosk>
                         <left>0</left>
@@ -1883,19 +1884,19 @@ frmProdDetails.lblDesc.text = "";</value>
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
+                        <top>3</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </winmobile>
                     <winmobile6x>
                         <left>0</left>
@@ -1907,11 +1908,11 @@ frmProdDetails.lblDesc.text = "";</value>
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>3</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
@@ -2012,7 +2013,7 @@ frmProdDetails.lblDesc.text = "";</value>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
                 <blockedSkin>Skin Defaults</blockedSkin>
-                <contentAlign>0</contentAlign>
+                <contentAlign>4</contentAlign>
                 <wm_derive_height>false</wm_derive_height>
                 <tooltip></tooltip>
                 <gridviewConfig>
@@ -2255,7 +2256,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winmobile>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winmobile>
@@ -2271,7 +2272,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
@@ -2819,7 +2820,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>%</unit>
+                        <unit>px</unit>
                     </defaults>
                     <desktop_kiosk>
                         <left>0</left>
@@ -2927,10 +2928,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -2951,10 +2952,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -3078,7 +3079,7 @@ frmProdDetails.lblDesc.text = "";</value>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>%</unit>
+                        <unit>px</unit>
                     </defaults>
                     <desktop_kiosk>
                         <left>0</left>
@@ -3186,10 +3187,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </windows8>
                     <windows8_override>true</windows8_override>
@@ -3210,10 +3211,10 @@ frmProdDetails.lblDesc.text = "";</value>
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -3669,28 +3670,28 @@ frmProdDetails.lblDesc.text = "";</value>
                     </margins>
                     <paddings>
                         <android>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>15</top>
-                            <bottom>15</bottom>
+                            <left>3</left>
+                            <right>3</right>
+                            <top>10</top>
+                            <bottom>10</bottom>
                             <unit>px</unit>
                         </android>
-                        <android_override>false</android_override>
+                        <android_override>true</android_override>
                         <bb>
                             <left>1</left>
                             <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <top>2</top>
+                            <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
-                        <bb_override>false</bb_override>
+                        <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
-                            <unit>%</unit>
+                            <left>3</left>
+                            <right>3</right>
+                            <top>10</top>
+                            <bottom>10</bottom>
+                            <unit>px</unit>
                         </defaults>
                         <desktop_kiosk>
                             <left>0</left>
@@ -3717,13 +3718,13 @@ frmProdDetails.lblDesc.text = "";</value>
                         </ipad>
                         <ipad_override>false</ipad_override>
                         <iphonerc>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>10</top>
-                            <bottom>10</bottom>
+                            <left>3</left>
+                            <right>3</right>
+                            <top>5</top>
+                            <bottom>5</bottom>
                             <unit>px</unit>
                         </iphonerc>
-                        <iphonerc_override>false</iphonerc_override>
+                        <iphonerc_override>true</iphonerc_override>
                         <j2me>
                             <left>0</left>
                             <right>0</right>
@@ -3798,18 +3799,18 @@ frmProdDetails.lblDesc.text = "";</value>
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>5</left>
-                            <right>5</right>
-                            <top>5</top>
-                            <bottom>5</bottom>
+                            <left>3</left>
+                            <right>3</right>
+                            <top>10</top>
+                            <bottom>10</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
                             <left>3</left>
                             <right>3</right>
-                            <top>10</top>
-                            <bottom>10</bottom>
+                            <top>5</top>
+                            <bottom>5</bottom>
                             <unit>px</unit>
                         </winmobile>
                         <winmobile6x>
@@ -3820,15 +3821,15 @@ frmProdDetails.lblDesc.text = "";</value>
                             <unit>px</unit>
                         </winmobile6x>
                         <winmobile6x_override>true</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>5</left>
-                            <right>5</right>
+                            <left>3</left>
+                            <right>3</right>
                             <top>5</top>
                             <bottom>5</bottom>
                             <unit>px</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>1</left>
                             <right>1</right>
@@ -4059,7 +4060,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </defaults>
                         <desktop_kiosk>
                             <left>0</left>
@@ -4167,10 +4168,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -4191,10 +4192,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -4318,7 +4319,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </defaults>
                         <desktop_kiosk>
                             <left>0</left>
@@ -4426,10 +4427,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -4450,10 +4451,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -4928,28 +4929,28 @@ frmProdDetails.lblDesc.text = "";</value>
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
+                                <unit>px</unit>
                             </defaults>
                             <desktop_kiosk>
                                 <left>0</left>
@@ -4976,13 +4977,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </ipad>
                             <ipad_override>false</ipad_override>
                             <iphonerc>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </iphonerc>
-                            <iphonerc_override>false</iphonerc_override>
+                            <iphonerc_override>true</iphonerc_override>
                             <j2me>
                                 <left>0</left>
                                 <right>0</right>
@@ -5057,18 +5058,18 @@ frmProdDetails.lblDesc.text = "";</value>
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>5</left>
-                                <right>5</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -5079,15 +5080,15 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>px</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>5</left>
-                                <right>5</right>
+                                <left>3</left>
+                                <right>3</right>
                                 <top>5</top>
                                 <bottom>5</bottom>
                                 <unit>px</unit>
                             </winphone8>
-                            <winphone8_override>false</winphone8_override>
+                            <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>1</left>
                                 <right>1</right>
@@ -5555,28 +5556,28 @@ frmProdDetails.lblDesc.text = "";</value>
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
+                                <unit>px</unit>
                             </defaults>
                             <desktop_kiosk>
                                 <left>0</left>
@@ -5603,13 +5604,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </ipad>
                             <ipad_override>false</ipad_override>
                             <iphonerc>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </iphonerc>
-                            <iphonerc_override>false</iphonerc_override>
+                            <iphonerc_override>true</iphonerc_override>
                             <j2me>
                                 <left>0</left>
                                 <right>0</right>
@@ -5684,18 +5685,18 @@ frmProdDetails.lblDesc.text = "";</value>
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>5</left>
-                                <right>5</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -5706,15 +5707,15 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>px</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>5</left>
-                                <right>5</right>
+                                <left>3</left>
+                                <right>3</right>
                                 <top>5</top>
                                 <bottom>5</bottom>
                                 <unit>px</unit>
                             </winphone8>
-                            <winphone8_override>false</winphone8_override>
+                            <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>1</left>
                                 <right>1</right>
@@ -5955,7 +5956,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </defaults>
                         <desktop_kiosk>
                             <left>0</left>
@@ -6063,10 +6064,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -6087,10 +6088,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -6214,7 +6215,7 @@ frmProdDetails.lblDesc.text = "";</value>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </defaults>
                         <desktop_kiosk>
                             <left>0</left>
@@ -6322,10 +6323,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -6346,10 +6347,10 @@ frmProdDetails.lblDesc.text = "";</value>
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>px</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -6824,28 +6825,28 @@ frmProdDetails.lblDesc.text = "";</value>
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
+                                <unit>px</unit>
                             </defaults>
                             <desktop_kiosk>
                                 <left>0</left>
@@ -6872,13 +6873,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </ipad>
                             <ipad_override>false</ipad_override>
                             <iphonerc>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </iphonerc>
-                            <iphonerc_override>false</iphonerc_override>
+                            <iphonerc_override>true</iphonerc_override>
                             <j2me>
                                 <left>0</left>
                                 <right>0</right>
@@ -6953,18 +6954,18 @@ frmProdDetails.lblDesc.text = "";</value>
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>5</left>
-                                <right>5</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -6975,15 +6976,15 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>px</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>5</left>
-                                <right>5</right>
+                                <left>3</left>
+                                <right>3</right>
                                 <top>5</top>
                                 <bottom>5</bottom>
                                 <unit>px</unit>
                             </winphone8>
-                            <winphone8_override>false</winphone8_override>
+                            <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>1</left>
                                 <right>1</right>
@@ -7451,28 +7452,28 @@ frmProdDetails.lblDesc.text = "";</value>
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
-                                <unit>%</unit>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
+                                <unit>px</unit>
                             </defaults>
                             <desktop_kiosk>
                                 <left>0</left>
@@ -7499,13 +7500,13 @@ frmProdDetails.lblDesc.text = "";</value>
                             </ipad>
                             <ipad_override>false</ipad_override>
                             <iphonerc>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </iphonerc>
-                            <iphonerc_override>false</iphonerc_override>
+                            <iphonerc_override>true</iphonerc_override>
                             <j2me>
                                 <left>0</left>
                                 <right>0</right>
@@ -7580,18 +7581,18 @@ frmProdDetails.lblDesc.text = "";</value>
                             <thinclient_override>false</thinclient_override>
                             <type>1</type>
                             <windows8>
-                                <left>5</left>
-                                <right>5</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <left>3</left>
+                                <right>3</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>px</unit>
                             </windows8>
                             <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>10</top>
-                                <bottom>10</bottom>
+                                <top>5</top>
+                                <bottom>5</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -7602,15 +7603,15 @@ frmProdDetails.lblDesc.text = "";</value>
                                 <unit>px</unit>
                             </winmobile6x>
                             <winmobile6x_override>true</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>5</left>
-                                <right>5</right>
+                                <left>3</left>
+                                <right>3</right>
                                 <top>5</top>
                                 <bottom>5</bottom>
                                 <unit>px</unit>
                             </winphone8>
-                            <winphone8_override>false</winphone8_override>
+                            <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
                                 <left>1</left>
                                 <right>1</right>
@@ -7840,10 +7841,10 @@ frmProdDetails.lblDesc.text = "";</value>
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>5</bottom>
+                            <unit>px</unit>
                         </android>
-                        <android_override>false</android_override>
+                        <android_override>true</android_override>
                         <bb>
                             <left>0</left>
                             <right>0</right>
@@ -7977,8 +7978,8 @@ frmProdDetails.lblDesc.text = "";</value>
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>5</bottom>
+                            <unit>px</unit>
                         </winmobile>
                         <winmobile6x>
                             <left>0</left>
@@ -7993,8 +7994,8 @@ frmProdDetails.lblDesc.text = "";</value>
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>5</bottom>
+                            <unit>px</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
@@ -8659,11 +8660,11 @@ frmProdDetails.lblDesc.text = "";</value>
                 </windows8>
                 <windows8_override>true</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>0</top>
+                    <bottom>3</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -8673,15 +8674,15 @@ frmProdDetails.lblDesc.text = "";</value>
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>false</winmobile_override>
+                <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>0</top>
+                    <bottom>3</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -8781,28 +8782,28 @@ frmProdDetails.lblDesc.text = "";</value>
             </margins>
             <paddings>
                 <android>
-                    <left>6</left>
-                    <right>6</right>
-                    <top>15</top>
-                    <bottom>15</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>3</top>
+                    <bottom>10</bottom>
                     <unit>px</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>1</left>
                     <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>10</top>
+                    <bottom>10</bottom>
+                    <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
                     <left>0</left>
@@ -8829,13 +8830,13 @@ frmProdDetails.lblDesc.text = "";</value>
                 </ipad>
                 <ipad_override>false</ipad_override>
                 <iphonerc>
-                    <left>6</left>
-                    <right>6</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>px</unit>
                 </iphonerc>
-                <iphonerc_override>false</iphonerc_override>
+                <iphonerc_override>true</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -8910,19 +8911,19 @@ frmProdDetails.lblDesc.text = "";</value>
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>5</left>
-                    <right>5</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>10</top>
+                    <bottom>10</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>3</left>
                     <right>3</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
-                    <unit>px</unit>
+                    <top>5</top>
+                    <bottom>5</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>3</left>
@@ -8932,15 +8933,15 @@ frmProdDetails.lblDesc.text = "";</value>
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>false</winmobile_override>
+                <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>5</left>
-                    <right>5</right>
+                    <left>3</left>
+                    <right>3</right>
                     <top>5</top>
                     <bottom>5</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>1</left>
                     <right>1</right>
@@ -9080,7 +9081,7 @@ frmProdDetails.lblDesc.text = "";</value>
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>
         <winphone8_outtransitionspeed>0</winphone8_outtransitionspeed>
-        <winphone8_orientation>2</winphone8_orientation>
+        <winphone8_orientation>1</winphone8_orientation>
         <winphone8_onorientation_root>
             <evtSequence>
                 <enabled>true</enabled>
