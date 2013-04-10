@@ -4030,7 +4030,8 @@
                             <exprMap>
                                 <entry>
                                     <key>js</key>
-                                    <value>srchKey = hbxSearch.txtbxSrch.text;
+                                    <value>kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");
+srchKey = hbxSearch.txtbxSrch.text;
 if(srchKey==""||srchKey==null||srchKey==undefined)
 	alert("Enter product name to search !!")
 else

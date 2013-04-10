@@ -1,6 +1,32 @@
 
 /*
 ****************************************************************
+*	Name    : callAppMenu
+*	Author  : Kony Solutions
+*	Purpose : This function creates appmenu.
+****************************************************************
+*/
+function callAppMenu() {
+    var appMenu = [
+        ["Home", "Home", "home.png", home_callback_seq]
+    ];
+    kony.application.createAppMenu("KonyBestBuyAppMenu", appMenu, null, null);
+}
+/*
+****************************************************************
+*	Name    : home_callback_seq
+*	Author  : Kony Solutions
+*	Purpose : This callback function.
+****************************************************************
+*/
+function home_callback_seq()
+{
+	frmHome.show();
+
+}
+
+/*
+****************************************************************
 *	Name    : getCatList
 *	Author  : Kony Solutions
 *	Purpose : This function invokes BestBuy service.

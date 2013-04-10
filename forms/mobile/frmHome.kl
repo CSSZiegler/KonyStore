@@ -418,6 +418,25 @@
         <headerId>hdrLogo</headerId>
         <footerId>None</footerId>
         <title></title>
+        <preShow_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>kony.application.createAppMenu("KonyBestBuyAppMenu1", [], null, null);
+kony.application.setCurrentAppMenu("KonyBestBuyAppMenu1");</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </preShow_root>
         <init>
             <evtSequence>
                 <actionList xsi:type="eventExpressionAction">
@@ -2735,6 +2754,18 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
 frmSubCat.lblSubCat.text = "";
 frmSubCat.lblSubCat2.text = "";
 frmSubCat.lblSubCat2.setVisibility(false);</value>
+                            </entry>
+                        </exprMap>
+                    </actionList>
+                    <actionList xsi:type="eventExpressionAction">
+                        <enabled>true</enabled>
+                        <name></name>
+                        <type>5</type>
+                        <expr></expr>
+                        <exprMap>
+                            <entry>
+                                <key>js</key>
+                                <value>kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
                             </entry>
                         </exprMap>
                     </actionList>

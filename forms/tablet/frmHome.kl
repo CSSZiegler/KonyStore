@@ -420,6 +420,19 @@
         <title></title>
         <preShow_root>
             <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>kony.application.createAppMenu("KonyBestBuyAppMenu1", [], null, null);
+kony.application.setCurrentAppMenu("KonyBestBuyAppMenu1");</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
                 <actionList xsi:type="eventPreprocessDecisionAction">
                     <mainaction>
                         <mainaction xsi:type="eventExpressionAction">
@@ -2768,7 +2781,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
 scatName = frmHome.segcatList.selectedItems[0].categoryName;
 frmSubCat.lblSubCat.text = "";
 frmSubCat.lblSubCat2.text = "";
-frmSubCat.lblSubCat2.setVisibility(false);</value>
+frmSubCat.lblSubCat2.setVisibility(false);
+kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
                             </entry>
                         </exprMap>
                     </actionList>
@@ -3502,6 +3516,7 @@ frmSubCat.lblSubCat2.setVisibility(false);</value>
             </children>
         </children>
         <overrideProperties>KForm.ipad_Orientation</overrideProperties>
+        <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
