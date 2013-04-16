@@ -430,7 +430,8 @@
                             <exprMap>
                                 <entry>
                                     <key>js</key>
-                                    <value>frmSubCat.segcatList.separatorThickness = 0;</value>
+                                    <value>frmSubCat.segcatList.separatorThickness = 0;
+frmSubCat.title="Kony BestBuy";</value>
                                 </entry>
                             </exprMap>
                         </mainaction>
@@ -469,7 +470,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -707,7 +708,7 @@
         <androidTitleBarData>
             <background_image></background_image>
             <skinID>Skin Defaults</skinID>
-            <visible>true</visible>
+            <visible>false</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
@@ -948,11 +949,11 @@
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>10</left>
-                    <right>10</right>
-                    <top>3</top>
-                    <bottom>5</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
@@ -2007,6 +2008,7 @@
                 <parent_wrapping>word</parent_wrapping>
                 <parent_longText>false</parent_longText>
                 <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                <overrideProperties>KButton.android_contentalignment</overrideProperties>
                 <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
                 <iphone_wrapping>0</iphone_wrapping>
                 <iphone_contentAlignment>0</iphone_contentAlignment>
@@ -2019,7 +2021,7 @@
                 <bb_content_align>0</bb_content_align>
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
-                <android_content_align>0</android_content_align>
+                <android_content_align>3</android_content_align>
                 <winMobileContentAlign>middle-left</winMobileContentAlign>
                 <symbianWrapping>0</symbianWrapping>
                 <symbianContentAlign>0</symbianContentAlign>
@@ -4713,6 +4715,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;</value>
                 <winphone8_contentalign>middle-left</winphone8_contentalign>
             </children>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

@@ -443,7 +443,8 @@ kony.application.setCurrentAppMenu("KonyBestBuyAppMenu1");</value>
                             <exprMap>
                                 <entry>
                                     <key>js</key>
-                                    <value>frmHome.segcatList.separatorThickness = 0;</value>
+                                    <value>frmHome.segcatList.separatorThickness = 0;
+frmHome.title="Kony BestBuy";</value>
                                 </entry>
                             </exprMap>
                         </mainaction>
@@ -517,12 +518,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <seqname></seqname>
             </evtSequence>
         </onOrientationChange>
-        <titlebar>true</titlebar>
+        <titlebar>false</titlebar>
         <footerOverlap>false</footerOverlap>
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -611,7 +612,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
         <ipad_headerOverlap>false</ipad_headerOverlap>
-        <ipad_orientation>0</ipad_orientation>
+        <ipad_orientation>2</ipad_orientation>
         <ipadMenuRenderer>true</ipadMenuRenderer>
         <ipad_transDirection>0</ipad_transDirection>
         <ipadOutTransEffect>0</ipadOutTransEffect>
@@ -922,8 +923,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <defaults>
                     <left>3</left>
                     <right>3</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -949,7 +950,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                     <bottom>5</bottom>
                     <unit>px</unit>
                 </ipad>
-                <ipad_override>true</ipad_override>
+                <ipad_override>false</ipad_override>
                 <iphonerc>
                     <left>10</left>
                     <right>10</right>
@@ -1001,11 +1002,11 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>10</left>
-                    <right>10</right>
-                    <top>3</top>
-                    <bottom>5</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>

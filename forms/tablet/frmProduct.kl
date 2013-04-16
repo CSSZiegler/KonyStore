@@ -420,17 +420,81 @@
         <title></title>
         <preShow_root>
             <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
+                <actionList xsi:type="eventPreprocessDecisionAction">
+                    <mainaction>
+                        <mainaction xsi:type="eventExpressionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>5</type>
+                            <expr></expr>
+                            <exprMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>frmProduct.title = "Kony BestBuy";</value>
+                                </entry>
+                            </exprMap>
+                        </mainaction>
+                        <enabled>true</enabled>
+                        <name>true</name>
+                        <type>0</type>
+                    </mainaction>
                     <enabled>true</enabled>
                     <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
+                    <type>8</type>
+                    <platMap>
                         <entry>
-                            <key>js</key>
-                            <value>hbxSearch.txtbxSrch.text = "";</value>
+                            <key>windows8</key>
+                            <value>true</value>
                         </entry>
-                    </exprMap>
+                    </platMap>
+                </actionList>
+                <actionList xsi:type="eventPreprocessDecisionAction">
+                    <mainaction>
+                        <mainaction xsi:type="eventExpressionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>5</type>
+                            <expr></expr>
+                            <exprMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>hbxSearch.txtbxSrch.text = "";</value>
+                                </entry>
+                            </exprMap>
+                        </mainaction>
+                        <enabled>true</enabled>
+                        <name>true</name>
+                        <type>0</type>
+                    </mainaction>
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>8</type>
+                    <platMap>
+                        <entry>
+                            <key>spaipad</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>spatabandroid</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>windows8</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>spatabwindows</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>ipad</key>
+                            <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>tabrcandroid</key>
+                            <value>true</value>
+                        </entry>
+                    </platMap>
                 </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
@@ -453,7 +517,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -691,7 +755,7 @@
         <androidTitleBarData>
             <background_image></background_image>
             <skinID>Skin Defaults</skinID>
-            <visible>true</visible>
+            <visible>false</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
@@ -854,7 +918,7 @@
                     <left>3</left>
                     <right>3</right>
                     <top>3</top>
-                    <bottom>3</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -932,11 +996,11 @@
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>10</left>
-                    <right>10</right>
-                    <top>3</top>
-                    <bottom>5</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
@@ -2750,7 +2814,7 @@
                     <left>3</left>
                     <right>3</right>
                     <top>3</top>
-                    <bottom>3</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -2828,11 +2892,11 @@
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>10</left>
-                    <right>10</right>
-                    <top>3</top>
-                    <bottom>5</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
@@ -4017,8 +4081,8 @@
                 <defaults>
                     <left>3</left>
                     <right>3</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -4096,11 +4160,11 @@
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>10</left>
-                    <right>10</right>
-                    <top>3</top>
-                    <bottom>5</bottom>
-                    <unit>px</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
@@ -5633,7 +5697,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -9924,6 +9988,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <winphone8_position>0</winphone8_position>
             </children>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

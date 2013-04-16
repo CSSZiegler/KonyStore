@@ -429,7 +429,7 @@
                         <entry>
                             <key>js</key>
                             <value>//#ifdef windows8
-	
+	frmProdDetails.title="Kony BestBuy";
 //#else
 	hbxSearch.setVisibility(false);
 //#endif
@@ -519,7 +519,7 @@ frmProdDetails.lblDesc.text = "";	</value>
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -757,7 +757,7 @@ frmProdDetails.lblDesc.text = "";	</value>
         <androidTitleBarData>
             <background_image></background_image>
             <skinID>Skin Defaults</skinID>
-            <visible>true</visible>
+            <visible>false</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
@@ -9116,6 +9116,7 @@ frmProdDetails.lblDesc.text = "";	</value>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
