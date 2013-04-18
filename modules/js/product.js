@@ -32,19 +32,30 @@ function prodListCallback(status, gcList)
 	
 	if (status == 400){
 			if (gcList["opstatus"] == 0) {
-			var tmp =[],img;
+			var tmp =[],img,price,salePrice,flag;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
-				for(var i=0;i<gcList["productsCollection"].length;i++){
+				for(var i=0;i<gcList["productsCollection"].length;i++ ){
 					//#ifdef windows8
 						img = gcList["productsCollection"][i]["imgProductImage"];
 					//#else
 						img = gcList["productsCollection"][i]["imgProductMediumImage"];
 					//#endif
-					
+					flag=gcList["productsCollection"][i]["lblOnSale"];
+					kony.print("!! boolen: "+flag);	
+					if(flag=="true")
+					{
+						price = "";
+						salePrice = "Sale Price: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
+					 } 
+					 else {
+						price = "$" + gcList["productsCollection"][i]["lblProductPrice"];
+						salePrice = "";
+					}
 					tmp.push({
 						"prodImg":img,
 						"lblPName":gcList["productsCollection"][i]["lblProductName"],
-						"lblPrice":"$"+gcList["productsCollection"][i]["lblProductPrice"],
+						"lblPrice":price,
+						"lblSalesPrice":salePrice,
 						"lblDesc":gcList["productsCollection"][i]["lblProductDescription"],
 						"lblSku":gcList["productsCollection"][i]["sku"],
 						"lblReview":gcList["productsCollection"][i]["lblProductReview"]

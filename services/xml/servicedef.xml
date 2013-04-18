@@ -5,7 +5,7 @@
    <services>
       <service cachable="false" cacheduration="" id="getCategories" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
          <service-config>
-            <config-param name="endpointUrl" value="http://api.remix.bestbuy.com/v1/categories?apiKey=$apiKey"/>
+            <config-param name="endpointUrl" value="http://api.remix.bestbuy.com/v1/categories(id=cat00000)?apiKey=$apiKey"/>
             <config-param name="postprocessorname" value=""/>
             <config-param name="preprocessorname" value=""/>
             <config-param name="urlprovider" value=""/>
@@ -25,7 +25,7 @@
             <param datatype="string" encode="true" name="apiKey" sms-name="" src="" value=""/>
          </service-input>
          <service-output>
-            <dataset id="category" src="//categories">
+            <dataset id="category" src="//subCategories">
                <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="category/id" target=""/>
                <param datatype="string" format="None" formatvalue="" name="name" sms-name="" src="category/name" target=""/>
             </dataset>
