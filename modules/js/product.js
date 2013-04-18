@@ -45,7 +45,7 @@ function prodListCallback(status, gcList)
 					if(flag=="true")
 					{
 						price = "";
-						salePrice = "Sale Price: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
+						salePrice = "On Sale: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
 					 } 
 					 else {
 						price = "$" + gcList["productsCollection"][i]["lblProductPrice"];
