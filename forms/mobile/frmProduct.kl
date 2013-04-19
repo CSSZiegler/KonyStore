@@ -415,7 +415,7 @@
         <idle_timeout>false</idle_timeout>
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
-        <headerId>hdrLogo</headerId>
+        <headerId>hdrLogo2</headerId>
         <footerId>None</footerId>
         <title></title>
         <preShow_root>
@@ -428,7 +428,8 @@
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>hbxSearch.txtbxSrch.text = "";</value>
+                            <value>hbxSearch.txtbxSrch.text = "";
+hbxSearch2.txtbxSrch.text = "";</value>
                         </entry>
                     </exprMap>
                 </actionList>
@@ -524,7 +525,7 @@
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>true</visible>
+            <visible>false</visible>
             <textChecked>true</textChecked>
         </iphoneTitleBarData>
         <iphone_isModal>false</iphone_isModal>
@@ -776,7 +777,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>29</y>
+                <y>58</y>
             </location>
             <size>
                 <width>448</width>
@@ -2671,7 +2672,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>92</y>
+                <y>111</y>
             </location>
             <size>
                 <width>448</width>
@@ -3939,7 +3940,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>143</y>
+                <y>163</y>
             </location>
             <size>
                 <width>448</width>
@@ -5207,7 +5208,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>198</y>
+                <y>214</y>
             </location>
             <size>
                 <width>448</width>
@@ -5577,7 +5578,7 @@
                 <ipad_override>false</ipad_override>
                 <iphonerc>
                     <left>0</left>
-                    <right>0</right>
+                    <right>1</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -5856,9 +5857,24 @@
             <rowTemplate>None</rowTemplate>
             <secHeaderTemplate>None</secHeaderTemplate>
             <choiceData>
-                <serviceType>2</serviceType>
+                <serviceType>5</serviceType>
                 <function>None</function>
                 <segData/>
+                <newSegData>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">prodImg</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblPName.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblPName.i18key</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblPrice.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblPrice.i18key</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblSalesPrice.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblSalesPrice.i18key</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblDesc.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblDesc.i18key</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblSku.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblSku.i18key</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblReview.txt</data>
+                    <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">lblReview.i18key</data>
+                </newSegData>
                 <tablerowData/>
                 <dummydata>false</dummydata>
                 <updatedToNewSegmentData>true</updatedToNewSegmentData>
@@ -8060,11 +8076,11 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <y>1</y>
                     </location>
                     <size>
-                        <width>244</width>
+                        <width>231</width>
                         <height>168</height>
                     </size>
                     <sizePercent>
-                        <width>55</width>
+                        <width>52</width>
                         <height>100</height>
                     </sizePercent>
                     <skinId>Skin Defaults</skinId>
@@ -8677,7 +8693,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>1</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>229</width>
                             <height>47</height>
                         </size>
                         <sizePercent>
@@ -9304,7 +9320,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>57</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>229</width>
                             <height>26</height>
                         </size>
                         <sizePercent>
@@ -9668,8 +9684,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <iphonerc>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <top>3</top>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </iphonerc>
                             <iphonerc_override>true</iphonerc_override>
@@ -9932,7 +9948,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>95</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>229</width>
                             <height>26</height>
                         </size>
                         <sizePercent>
@@ -10296,8 +10312,8 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <iphonerc>
                                 <left>3</left>
                                 <right>3</right>
-                                <top>5</top>
-                                <bottom>5</bottom>
+                                <top>3</top>
+                                <bottom>3</bottom>
                                 <unit>px</unit>
                             </iphonerc>
                             <iphonerc_override>true</iphonerc_override>
@@ -10558,6 +10574,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <winphone8_position>0</winphone8_position>
             </children>
         </children>
+        <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

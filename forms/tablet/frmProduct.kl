@@ -475,12 +475,12 @@
                             <value>true</value>
                         </entry>
                         <entry>
-                            <key>spatabandroid</key>
-                            <value>true</value>
-                        </entry>
-                        <entry>
                             <key>windows8</key>
                             <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>spatabandroid</key>
+                            <value>true</value>
                         </entry>
                         <entry>
                             <key>spatabwindows</key>
@@ -6129,7 +6129,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 </evtSequence>
             </iphone_onEditing>
             <iphone_editStyle>SEGUI_EDITING_STYLE_NONE</iphone_editStyle>
-            <ipad_executeonClosure>2</ipad_executeonClosure>
+            <ipad_executeonClosure>1</ipad_executeonClosure>
             <ipad_enableDictionary>false</ipad_enableDictionary>
             <ipad_npi>true</ipad_npi>
             <ipad_pi_color>0</ipad_pi_color>

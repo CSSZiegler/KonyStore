@@ -41,7 +41,6 @@ function prodListCallback(status, gcList)
 						img = gcList["productsCollection"][i]["imgProductMediumImage"];
 					//#endif
 					flag=gcList["productsCollection"][i]["lblOnSale"];
-					kony.print("!! boolen: "+flag);	
 					if(flag=="true")
 					{
 						price = "";

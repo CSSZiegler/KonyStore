@@ -428,8 +428,8 @@
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>kony.application.createAppMenu("KonyBestBuyAppMenu1", [], null, null);
-kony.application.setCurrentAppMenu("KonyBestBuyAppMenu1");</value>
+                            <value>hbxSearch.setVisibility(true);
+hbxSearch.txtbxSrch.text="";</value>
                         </entry>
                     </exprMap>
                 </actionList>
@@ -2765,7 +2765,9 @@ frmSubCat.lblSubCat2.setVisibility(false);</value>
                         <exprMap>
                             <entry>
                                 <key>js</key>
-                                <value>kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
+                                <value>callAppMenu();
+kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");
+</value>
                             </entry>
                         </exprMap>
                     </actionList>

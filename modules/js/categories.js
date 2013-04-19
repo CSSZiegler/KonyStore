@@ -159,7 +159,12 @@ function subCatListCallback(status, gcList)
 	          	//#ifdef windows8
 	          		
 	          	//#else
-	          		hbxSearch.setVisibility(true);
+		          //#ifdef iphone
+				    hbxSearch2.setVisibility(true);
+                  //#else
+				    hbxSearch.setVisibility(true);
+                  //#endif
+	          		          		
 	          	//#endif
 	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);

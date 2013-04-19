@@ -7,4 +7,7 @@
     <attributes datatype="string" value="" name="id"/>
     <attributes datatype="string" value="" name="name"/>
     </dataset>
+    <dataset id="curfrm" datatype="collection" value="">
+    </dataset>
+    <attributes datatype="boolean" value="false" name="srchFlag"/>
 </globals>

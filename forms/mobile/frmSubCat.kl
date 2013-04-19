@@ -415,7 +415,7 @@
         <idle_timeout>false</idle_timeout>
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
-        <headerId>hdrLogo</headerId>
+        <headerId>hdrLogo2</headerId>
         <footerId>None</footerId>
         <title></title>
         <preShow_root>
@@ -494,7 +494,7 @@
             <leftButtonFocusSkinID>Skin Defaults</leftButtonFocusSkinID>
             <leftButtonI18Key>None</leftButtonI18Key>
             <leftButtonSkinID>Skin Defaults</leftButtonSkinID>
-            <leftButtonText>Back</leftButtonText>
+            <leftButtonText></leftButtonText>
             <leftEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -505,14 +505,14 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>2</leftSideView>
+            <leftSideView>0</leftSideView>
             <leftTitle></leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
-            <leftbtnImgPath>back.png</leftbtnImgPath>
+            <leftbtnImgPath></leftbtnImgPath>
             <rightSideView>0</rightSideView>
             <rightTitle></rightTitle>
             <rightTitleEvtData>
@@ -525,7 +525,7 @@
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>false</visible>
-            <textChecked>false</textChecked>
+            <textChecked>true</textChecked>
         </iphoneTitleBarData>
         <iphone_isModal>false</iphone_isModal>
         <iphone_needsIndctr>true</iphone_needsIndctr>
@@ -776,7 +776,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>1</y>
+                <y>57</y>
             </location>
             <size>
                 <width>448</width>
@@ -3298,7 +3298,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>75</y>
+                <y>129</y>
             </location>
             <size>
                 <width>448</width>
@@ -4696,6 +4696,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;
                 <winphone8_contentalign>middle-left</winphone8_contentalign>
             </children>
         </children>
+        <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>
