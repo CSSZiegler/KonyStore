@@ -16,7 +16,7 @@ function preShowHome(){
 ****************************************************************
 *	Name    : preShowProduct
 *	Author  : Kony Solutions
-*	Purpose : This function is common preshow for forms with Back button to handle the form pre show logic.
+*	Purpose : This function is Product preshow to handle the form pre show logic.
 ****************************************************************
 */
 function preShowProduct(){
@@ -29,7 +29,7 @@ function preShowProduct(){
 ****************************************************************
 *	Name    : preShowSubcat
 *	Author  : Kony Solutions
-*	Purpose : This function is common preshow for forms with Back button to handle the form pre show logic.
+*	Purpose : This function is subcategory preshow to handle the form pre show logic.
 ****************************************************************
 */
 function preShowSubCat(){
