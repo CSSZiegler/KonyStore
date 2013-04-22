@@ -48,8 +48,8 @@
         <widgetID>p2kwiet104262668415835</widgetID>
         <createdGAVersion>5.0.0</createdGAVersion>
         <location>
-            <x>5</x>
-            <y>5</y>
+            <x>11</x>
+            <y>4</y>
         </location>
         <size>
             <width>450</width>
@@ -599,14 +599,14 @@ frmSubCat.title="Kony BestBuy";</value>
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>2</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>0</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
-            <leftbtnImgPath>back.png</leftbtnImgPath>
+            <leftbtnImgPath></leftbtnImgPath>
             <rightSideView>0</rightSideView>
             <rightTitle></rightTitle>
             <rightTitleEvtData>
@@ -618,7 +618,7 @@ frmSubCat.title="Kony BestBuy";</value>
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>false</visible>
+            <visible>true</visible>
             <textChecked>false</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
@@ -1367,8 +1367,8 @@ frmSubCat.title="Kony BestBuy";</value>
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <direction>0</direction>
-            <usePercent>true</usePercent>
+            <direction>-1</direction>
+            <usePercent>false</usePercent>
             <orientation>constants.BOX_LAYOUT_HORIZONTAL</orientation>
             <position>0</position>
             <widgetLayoutDirection>BOX_LAYOUT_ALIGN_FROM_LEFT</widgetLayoutDirection>
@@ -1522,11 +1522,11 @@ frmSubCat.title="Kony BestBuy";</value>
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>2</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -2004,7 +2004,7 @@ frmSubCat.title="Kony BestBuy";</value>
                     <height>false</height>
                 </overridePerferred>
                 <contentAlign>4</contentAlign>
-                <parent_contentalignment>middle-center</parent_contentalignment>
+                <parent_contentalignment>middle-left</parent_contentalignment>
                 <parent_wrapping>word</parent_wrapping>
                 <parent_longText>false</parent_longText>
                 <parent_renderAsAnchor>false</parent_renderAsAnchor>
@@ -2152,10 +2152,10 @@ frmSubCat.title="Kony BestBuy";</value>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
                         <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <right>2</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -2410,13 +2410,13 @@ frmSubCat.title="Kony BestBuy";</value>
                     </desktop_web>
                     <desktop_web_override>true</desktop_web_override>
                     <ipad>
-                        <left>6</left>
-                        <right>6</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
-                        <unit>px</unit>
+                        <left>2</left>
+                        <right>2</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>%</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>6</left>
                         <right>6</right>
@@ -2637,6 +2637,7 @@ frmSubCat.title="Kony BestBuy";</value>
                 <parent_wrapping>word</parent_wrapping>
                 <parent_longText>false</parent_longText>
                 <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                <overrideProperties>KButton.ipad_contentalignment</overrideProperties>
                 <iphone_wrapping>0</iphone_wrapping>
                 <iphone_contentAlignment>0</iphone_contentAlignment>
                 <iphone_longtext>false</iphone_longtext>
@@ -3037,13 +3038,13 @@ frmSubCat.title="Kony BestBuy";</value>
                     </desktop_web>
                     <desktop_web_override>true</desktop_web_override>
                     <ipad>
-                        <left>6</left>
-                        <right>6</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
-                        <unit>px</unit>
+                        <left>2</left>
+                        <right>2</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>%</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>6</left>
                         <right>6</right>
@@ -3931,7 +3932,7 @@ frmSubCat.title="Kony BestBuy";</value>
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <widgetSkin>seg2Focus</widgetSkin>
+            <widgetSkin>segFocus2</widgetSkin>
             <rowSkin>Skin Defaults</rowSkin>
             <rowFocusSkin>SegRowFoc</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
@@ -4103,7 +4104,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;</value>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
                     <x>1</x>
-                    <y>19</y>
+                    <y>47</y>
                 </location>
                 <size>
                     <width>446</width>
@@ -4716,6 +4717,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;</value>
             </children>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

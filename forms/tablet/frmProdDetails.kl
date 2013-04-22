@@ -648,14 +648,14 @@ frmProdDetails.lblDesc.text = "";	</value>
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>2</leftSideView>
+            <leftSideView>0</leftSideView>
             <leftTitle></leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
-            <leftbtnImgPath>back.png</leftbtnImgPath>
+            <leftbtnImgPath></leftbtnImgPath>
             <rightSideView>0</rightSideView>
             <rightTitle></rightTitle>
             <rightTitleEvtData>
@@ -667,7 +667,7 @@ frmProdDetails.lblDesc.text = "";	</value>
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>false</visible>
+            <visible>true</visible>
             <textChecked>false</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
@@ -8477,6 +8477,7 @@ frmProdDetails.lblDesc.text = "";	</value>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

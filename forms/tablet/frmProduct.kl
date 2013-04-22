@@ -475,12 +475,12 @@
                             <value>true</value>
                         </entry>
                         <entry>
-                            <key>windows8</key>
-                            <value>false</value>
-                        </entry>
-                        <entry>
                             <key>spatabandroid</key>
                             <value>true</value>
+                        </entry>
+                        <entry>
+                            <key>windows8</key>
+                            <value>false</value>
                         </entry>
                         <entry>
                             <key>spatabwindows</key>
@@ -635,7 +635,7 @@
             <leftButtonFocusSkinID>Skin Defaults</leftButtonFocusSkinID>
             <leftButtonI18Key>None</leftButtonI18Key>
             <leftButtonSkinID>Skin Defaults</leftButtonSkinID>
-            <leftButtonText></leftButtonText>
+            <leftButtonText>Back</leftButtonText>
             <leftEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -665,8 +665,8 @@
             <rightbuttonI18Key>None</rightbuttonI18Key>
             <skinID>Skin Defaults</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>false</visible>
-            <textChecked>true</textChecked>
+            <visible>true</visible>
+            <textChecked>false</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
         <bb_undockappheader>false</bb_undockappheader>
@@ -6129,7 +6129,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 </evtSequence>
             </iphone_onEditing>
             <iphone_editStyle>SEGUI_EDITING_STYLE_NONE</iphone_editStyle>
-            <ipad_executeonClosure>1</ipad_executeonClosure>
+            <ipad_executeonClosure>0</ipad_executeonClosure>
             <ipad_enableDictionary>false</ipad_enableDictionary>
             <ipad_npi>true</ipad_npi>
             <ipad_pi_color>0</ipad_pi_color>
@@ -8126,11 +8126,11 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <y>1</y>
                     </location>
                     <size>
-                        <width>244</width>
+                        <width>232</width>
                         <height>168</height>
                     </size>
                     <sizePercent>
-                        <width>55</width>
+                        <width>52</width>
                         <height>100</height>
                     </sizePercent>
                     <skinId>Skin Defaults</skinId>
@@ -8743,7 +8743,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>1</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>230</width>
                             <height>47</height>
                         </size>
                         <sizePercent>
@@ -9370,7 +9370,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>57</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>230</width>
                             <height>26</height>
                         </size>
                         <sizePercent>
@@ -9998,7 +9998,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <y>110</y>
                         </location>
                         <size>
-                            <width>242</width>
+                            <width>230</width>
                             <height>26</height>
                         </size>
                         <sizePercent>
@@ -10625,6 +10625,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
             </children>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.win8titleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

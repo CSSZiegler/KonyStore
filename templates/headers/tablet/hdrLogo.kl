@@ -856,13 +856,13 @@
                 </desktop_web>
                 <desktop_web_override>false</desktop_web_override>
                 <ipad>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>0</left>
+                    <right>0</right>
                     <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </ipad>
-                <ipad_override>false</ipad_override>
+                <ipad_override>true</ipad_override>
                 <iphonerc>
                     <left>1</left>
                     <right>1</right>
@@ -2433,11 +2433,11 @@
                 </desktop_web>
                 <desktop_web_override>true</desktop_web_override>
                 <ipad>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>10</left>
+                    <right>10</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </ipad>
                 <ipad_override>true</ipad_override>
                 <iphonerc>
@@ -3081,11 +3081,11 @@
                     <ipad>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>0</left>
                         <right>0</right>
@@ -3382,7 +3382,7 @@
                 <android_view>textbox</android_view>
                 <iphone_view>textbox</iphone_view>
                 <ipad_view>textbox</ipad_view>
-                <spa_view>textbox</spa_view>
+                <tc_view>textbox</tc_view>
                 <desktopweb_onKeyUp>
                     <evtSequence>
                         <enabled>true</enabled>
@@ -3537,13 +3537,13 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>1</left>
                         <right>1</right>
