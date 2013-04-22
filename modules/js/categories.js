@@ -135,7 +135,8 @@ function subCatListCallback(status, gcList)
 							});
 					}	
 					frmSubCat.segcatList.setData(tmp);
-					if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
+					frmSubCat.lblSubHeader.text = scatName;
+				/*	if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
 					{
 						frmSubCat.lblSubCat.text = scatName;
 						frmSubCat.lblSubCat.skin = "lblBlue";
@@ -147,7 +148,7 @@ function subCatListCallback(status, gcList)
 						frmSubCat.lblSubCat.skin = "lblFoc";
 						frmSubCat.lblSubCat2.skin = "lblBlue";
 						frmSubCat.lblSubCat2.setVisibility(true);
-					}
+					}*/
 					frmSubCat.lblState.setFocus(true);
 					frmSubCat.show();  
 					kony.application.dismissLoadingScreen();            
@@ -159,12 +160,7 @@ function subCatListCallback(status, gcList)
 	          	//#ifdef windows8
 	          		
 	          	//#else
-		          //#ifdef iphone
-				    hbxSearch2.setVisibility(true);
-                  //#else
-				    hbxSearch.setVisibility(true);
-                  //#endif
-	          		          		
+				    hbxSearch.setVisibility(true);	          		
 	          	//#endif
 	          	frmProduct.hbxSrch.setVisibility(false);
 				var ProductList = appmiddlewareinvokerasync(prodList, prodListCallback);

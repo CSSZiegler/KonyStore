@@ -60,7 +60,7 @@
         <ntlmHost></ntlmHost>
         <outtemplate>&lt;?xml-stylesheet href="/v1/xsl/xml_pretty_printer.xsl" type="text/xsl"?&gt;
 
-&lt;products canonicalUrl="/v1/products(categoryPath.id=abcat0020004)?apiKey=tu48pbdksamsjgvwvgmk34ne" currentPage="1" from="1" partial="false" queryTime="0.006" to="1" total="1" totalPages="1" totalTime="0.016"&gt;
+&lt;products canonicalUrl="/v1/products(categoryPath.id=abcat0020004)?apiKey=tu48pbdksamsjgvwvgmk34ne" currentPage="1" from="1" partial="false" queryTime="0.007" to="1" total="1" totalPages="1" totalTime="0.019"&gt;
    &lt;product&gt;
       &lt;sku&gt;7965482&lt;/sku&gt;
       &lt;productId&gt;1153997316418&lt;/productId&gt;
@@ -73,11 +73,11 @@
       &lt;activeUpdateDate&gt;2013-02-28T19:45:41&lt;/activeUpdateDate&gt;
       &lt;regularPrice&gt;1499.99&lt;/regularPrice&gt;
       &lt;salePrice&gt;1499.99&lt;/salePrice&gt;
-      &lt;onSale&gt;false&lt;/onSale&gt;
+      &lt;onSale&gt;true&lt;/onSale&gt;
       &lt;planPrice/&gt;
       &lt;priceWithPlan/&gt;
-      &lt;priceRestriction/&gt;
-      &lt;priceUpdateDate&gt;2013-03-31T00:47:23&lt;/priceUpdateDate&gt;
+      &lt;priceRestriction&gt;MAP&lt;/priceRestriction&gt;
+      &lt;priceUpdateDate&gt;2013-04-20T08:24:37&lt;/priceUpdateDate&gt;
       &lt;digital&gt;false&lt;/digital&gt;
       &lt;preowned&gt;false&lt;/preowned&gt;
       &lt;carrierPlans/&gt;
@@ -90,8 +90,8 @@
       &lt;accessories/&gt;
       &lt;relatedProducts/&gt;
       &lt;salesRankShortTerm/&gt;
-      &lt;salesRankMediumTerm&gt;132568&lt;/salesRankMediumTerm&gt;
-      &lt;salesRankLongTerm&gt;293993&lt;/salesRankLongTerm&gt;
+      &lt;salesRankMediumTerm/&gt;
+      &lt;salesRankLongTerm&gt;300758&lt;/salesRankLongTerm&gt;
       &lt;bestSellingRank/&gt;
       &lt;url&gt;http://www.bestbuy.com/site/GE+-+Profile+150-Can+12-Bottle+Beverage+Center+-+Stainless-Steel/7965482.p?id=1153997316418&amp;amp;skuId=7965482&amp;amp;cmp=RMX&amp;amp;ky=2cp46BC6gBArcFfrxSvkiFDASN0cXF4UZ&lt;/url&gt;
       &lt;spin360Url/&gt;
@@ -121,21 +121,21 @@
       &lt;customerReviewCount&gt;2&lt;/customerReviewCount&gt;
       &lt;customerReviewAverage&gt;3.0&lt;/customerReviewAverage&gt;
       &lt;format/&gt;
-      &lt;freeShipping&gt;false&lt;/freeShipping&gt;
+      &lt;freeShipping&gt;true&lt;/freeShipping&gt;
       &lt;inStoreAvailability&gt;false&lt;/inStoreAvailability&gt;
       &lt;inStoreAvailabilityText&gt;Store Pickup: Not Available&lt;/inStoreAvailabilityText&gt;
       &lt;inStoreAvailabilityUpdateDate&gt;2013-02-28T19:45:41&lt;/inStoreAvailabilityUpdateDate&gt;
-      &lt;itemUpdateDate&gt;2013-03-31T12:44:11&lt;/itemUpdateDate&gt;
-      &lt;onlineAvailability&gt;true&lt;/onlineAvailability&gt;
+      &lt;itemUpdateDate&gt;2013-04-22T12:30:56&lt;/itemUpdateDate&gt;
+      &lt;onlineAvailability&gt;false&lt;/onlineAvailability&gt;
       &lt;onlineAvailabilityText&gt;Delivery: Most Areas&lt;/onlineAvailabilityText&gt;
-      &lt;onlineAvailabilityUpdateDate&gt;2013-02-28T19:45:41&lt;/onlineAvailabilityUpdateDate&gt;
+      &lt;onlineAvailabilityUpdateDate&gt;2013-04-13T07:17:43&lt;/onlineAvailabilityUpdateDate&gt;
       &lt;releaseDate/&gt;
-      &lt;shippingCost&gt;69.99&lt;/shippingCost&gt;
+      &lt;shippingCost&gt;0.00&lt;/shippingCost&gt;
       &lt;shipping&gt;
          &lt;ground/&gt;
          &lt;secondDay/&gt;
          &lt;nextDay/&gt;
-         &lt;vendorDelivery&gt;69.99&lt;/vendorDelivery&gt;
+         &lt;vendorDelivery&gt;0.00&lt;/vendorDelivery&gt;
       &lt;/shipping&gt;
       &lt;specialOrder&gt;true&lt;/specialOrder&gt;
       &lt;shortDescription&gt;Full-extension racks; spill-proof glass shelves; tinted glass door; interior display lighting&lt;/shortDescription&gt;
