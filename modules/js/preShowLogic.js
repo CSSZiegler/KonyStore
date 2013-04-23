@@ -60,3 +60,20 @@ function preShowProdDetails(){
 	frmProdDetails.lblDesc.text = "";
 }
 
+function preShowProdDetailsIpad(){
+	//#ifdef windows8
+	frmProdDetails.title="Kony BestBuy";
+	//#else
+		hbxSearch.setVisibility(false);
+	//#endif
+	
+	if(frmProdDetails.lblReview.text=="")
+	{
+		frmProdDetails.lblReview.text="No Reviews";	
+		frmProdDetails.imgReview.setVisibility(false);
+	}
+	if( frmProdDetails.lblDesc.text == undefined)
+	frmProdDetails.lblDesc.text = "";	
+}
+
+

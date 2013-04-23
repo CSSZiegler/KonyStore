@@ -37,7 +37,9 @@ function getCatList()
 {
 	var catList = { serviceID:"getCategories", apiKey:key };
 	var categoryList = appmiddlewareinvokerasync(catList, catListCallback);
-}
+	kony.application.dismissLoadingScreen();  
+	
+	}
 
 /*
 ****************************************************************
@@ -135,20 +137,25 @@ function subCatListCallback(status, gcList)
 							});
 					}	
 					frmSubCat.segcatList.setData(tmp);
-					frmSubCat.lblSubHeader.text = scatName;
-				/*	if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
-					{
-						frmSubCat.lblSubCat.text = scatName;
-						frmSubCat.lblSubCat.skin = "lblBlue";
-						frmSubCat.lblSubCat.setVisibility(true);
+					if(kony.os.deviceInfo().name != "iPad"){
+						frmSubCat.lblSubHeader.text = scatName;
+					}else{
+						
+						if(frmSubCat.lblSubCat.text == "" || frmSubCat.lblSubCat.text == null || frmSubCat.lblSubCat.text == undefined)
+						{
+							frmSubCat.lblSubCat.text = scatName;
+							frmSubCat.lblSubCat.skin = "lblBlue";
+							frmSubCat.lblSubCat.setVisibility(true);
+						}
+						else if(frmSubCat.lblSubCat2.text == "" || frmSubCat.lblSubCat2.text == null || frmSubCat.lblSubCat2.text == undefined)
+						{
+							frmSubCat.lblSubCat2.text = scatName;
+							frmSubCat.lblSubCat.skin = "lblFoc";
+							frmSubCat.lblSubCat2.skin = "lblBlue";
+							frmSubCat.lblSubCat2.setVisibility(true);
+						}
+					
 					}
-					else if(frmSubCat.lblSubCat2.text == "" || frmSubCat.lblSubCat2.text == null || frmSubCat.lblSubCat2.text == undefined)
-					{
-						frmSubCat.lblSubCat2.text = scatName;
-						frmSubCat.lblSubCat.skin = "lblFoc";
-						frmSubCat.lblSubCat2.skin = "lblBlue";
-						frmSubCat.lblSubCat2.setVisibility(true);
-					}*/
 					frmSubCat.lblState.setFocus(true);
 					frmSubCat.show();  
 					kony.application.dismissLoadingScreen();            

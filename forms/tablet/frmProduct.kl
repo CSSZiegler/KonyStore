@@ -89,14 +89,12 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
-            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
-            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -131,14 +129,12 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
-            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
-            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -225,14 +221,6 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
-            <spaWinphone8>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </spaWinphone8>
-            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -242,7 +230,6 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
-            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -266,13 +253,6 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
-            <tabspaWindows>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -790,7 +770,6 @@
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
-        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -875,14 +854,12 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -969,14 +946,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -986,7 +955,6 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -1010,13 +978,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -1228,14 +1189,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -1245,7 +1198,6 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -1269,13 +1221,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -1506,14 +1451,12 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -1600,14 +1543,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -1617,7 +1552,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -1641,13 +1575,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -1859,14 +1786,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>1</left>
                         <right>1</right>
@@ -1876,7 +1795,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -1900,13 +1818,6 @@
                         <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2134,14 +2045,12 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -2228,14 +2137,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -2245,7 +2146,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -2269,13 +2169,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2487,14 +2380,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>1</left>
                         <right>1</right>
@@ -2504,7 +2389,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -2528,13 +2412,6 @@
                         <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2771,14 +2648,12 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -2865,14 +2740,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -2882,7 +2749,6 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -2906,13 +2772,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -3124,14 +2983,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -3141,7 +2992,6 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -3165,13 +3015,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -3402,14 +3245,12 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -3496,14 +3337,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -3513,7 +3346,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -3537,13 +3369,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -3755,14 +3580,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>1</left>
                         <right>1</right>
@@ -3772,7 +3589,6 @@
                     </spaipad>
                     <spaipad_override>true</spaipad_override>
                     <spatablet_android_override>true</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -3796,13 +3612,6 @@
                         <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -4039,14 +3848,12 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -4133,14 +3940,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -4150,7 +3949,6 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -4174,13 +3972,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -4392,14 +4183,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -4409,7 +4192,6 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -4433,13 +4215,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -4670,14 +4445,12 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -4764,14 +4537,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -4781,7 +4546,6 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -4805,13 +4569,6 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -5023,14 +4780,6 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>1</left>
                         <right>1</right>
@@ -5040,7 +4789,6 @@
                     </spaipad>
                     <spaipad_override>true</spaipad_override>
                     <spatablet_android_override>true</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -5064,13 +4812,6 @@
                         <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -5311,14 +5052,12 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -5405,14 +5144,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -5422,7 +5153,6 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -5446,13 +5176,6 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -5664,14 +5387,6 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
-                <spaWinphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </spaWinphone8>
-                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -5681,7 +5396,6 @@
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
                 <spatablet_android_override>true</spatablet_android_override>
-                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -5705,13 +5419,6 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
-                <tabspaWindows>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
-                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -5972,129 +5679,23 @@
             <showScrollBars>false</showScrollBars>
             <onRowSelect>
                 <evtSequence>
-                    <actionList xsi:type="eventExpressionAction">
+                    <actionList xsi:type="eventFunctionAction">
                         <enabled>true</enabled>
                         <name></name>
-                        <type>5</type>
-                        <expr></expr>
-                        <exprMap>
+                        <type>6</type>
+                        <functionName>None</functionName>
+                        <functionNameMap>
                             <entry>
                                 <key>js</key>
-                                <value>var flag = frmProduct.segProdList.selectedItems[0].lblReview;
-
-if(flag!=null ||flag!="")
- flag1 = kony.math.toInteger(kony.os.toNumber(flag));
- frmProdDetails.imgReview.setVisibility(true);
-switch(flag1)
-{
-	case 1:frmProdDetails.imgReview.src="stars1.png";
-			break;
-	case 2:frmProdDetails.imgReview.src="stars2.png";
-			break;
-	case 3:frmProdDetails.imgReview.src="stars3.png";
-			break;
-	case 4:frmProdDetails.imgReview.src="stars4.png";
-			break;	
-	case 5:frmProdDetails.imgReview.src="stars5.png";
-			break;						
-
-}
-kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);</value>
+                                <value>showProductDetails</value>
                             </entry>
-                        </exprMap>
-                    </actionList>
-                    <actionList xsi:type="eventFormAction">
-                        <enabled>true</enabled>
-                        <name></name>
-                        <type>1</type>
-                        <destType>0</destType>
-                        <navigateFrom>frmProduct</navigateFrom>
-                        <navigateTo>frmProdDetails</navigateTo>
-                        <newOutputMapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;prodImg&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Image2" destplatform="" destmode="" dest="frmProdDetails.prdImg.Common.src">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["prodImg"]</value>
-                                    </entry>
-                                    <entry>
-                                        <key>lua</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["prodImg"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblPName&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.prdName.Common.text">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblPName"]</value>
-                                    </entry>
-                                    <entry>
-                                        <key>lua</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblPName"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblReview&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblReview.Common.text">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblReview"]</value>
-                                    </entry>
-                                    <entry>
-                                        <key>lua</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblReview"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblPrice&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblPrice.Common.text">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblPrice"]</value>
-                                    </entry>
-                                    <entry>
-                                        <key>lua</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblPrice"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblSalesPrice&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblSalesPrice.Common.text">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblSalesPrice"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                            <mapping srctype="expression" srcdatatype="expression" srcwidgettype="" srcmode="" src="frmProduct[&quot;segProdList&quot;][&quot;selectedItems&quot;][0][&quot;lblDesc&quot;]" msrcprefix="" msrcplatform="0" mdestprefix="" mdestplatform="0" desttype="widget" destdatatype="string" destwidgettype="Label" destplatform="" destmode="" dest="frmProdDetails.lblDesc.Common.text">
-                                <srcMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblDesc"]</value>
-                                    </entry>
-                                    <entry>
-                                        <key>lua</key>
-                                        <value>frmProduct["segProdList"]["selectedItems"][0]["lblDesc"]</value>
-                                    </entry>
-                                </srcMap>
-                            </mapping>
-                        </newOutputMapping>
-                        <outputMapping/>
-                        <platform>0</platform>
-                    </actionList>
-                    <actionList xsi:type="eventExpressionAction">
-                        <enabled>true</enabled>
-                        <name></name>
-                        <type>5</type>
-                        <expr></expr>
-                        <exprMap>
+                        </functionNameMap>
+                        <paramDataMap>
                             <entry>
                                 <key>js</key>
-                                <value>kony.application.dismissLoadingScreen(); 
-</value>
+                                <value/>
                             </entry>
-                        </exprMap>
+                        </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
                     <seqname></seqname>
@@ -6223,14 +5824,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
-                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
-                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -6317,14 +5916,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -6334,7 +5925,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
                         <right>0</right>
@@ -6358,13 +5948,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -6576,14 +6159,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
-                    <spaWinphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>1</left>
                         <right>1</right>
@@ -6593,7 +6168,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                     </spaipad>
                     <spaipad_override>true</spaipad_override>
                     <spatablet_android_override>true</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
                         <right>0</right>
@@ -6617,13 +6191,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
-                    <tabspaWindows>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
-                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -6860,14 +6427,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
                         <tabspa_ipad>true</tabspa_ipad>
-                        <tabspa_windows>true</tabspa_windows>
                         <tabspaspa_android>true</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
                         <tc_spabb_nth>true</tc_spabb_nth>
                         <tc_spaiphone>true</tc_spaiphone>
                         <tc_spawindows>true</tc_spawindows>
-                        <tc_spawinphone8>true</tc_spawinphone8>
                         <tc_xhtml>true</tc_xhtml>
                         <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                         <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -6954,14 +6519,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <unit>%</unit>
                         </palmpre>
                         <palmpre_override>true</palmpre_override>
-                        <spaWinphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </spaWinphone8>
-                        <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
                             <left>2</left>
                             <right>0</right>
@@ -6971,7 +6528,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         </spaipad>
                         <spaipad_override>true</spaipad_override>
                         <spatablet_android_override>true</spatablet_android_override>
-                        <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
                             <right>0</right>
@@ -6995,13 +6551,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
-                        <tabspaWindows>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </tabspaWindows>
                         <thinclient>
                             <left>0</left>
                             <right>0</right>
@@ -7213,14 +6762,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <unit>%</unit>
                         </palmpre>
                         <palmpre_override>false</palmpre_override>
-                        <spaWinphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </spaWinphone8>
-                        <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
                             <left>0</left>
                             <right>0</right>
@@ -7230,7 +6771,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         </spaipad>
                         <spaipad_override>true</spaipad_override>
                         <spatablet_android_override>true</spatablet_android_override>
-                        <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
                             <right>0</right>
@@ -7254,13 +6794,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
-                        <tabspaWindows>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </tabspaWindows>
                         <thinclient>
                             <left>0</left>
                             <right>0</right>
@@ -7474,14 +7007,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
                             <tabspa_ipad>true</tabspa_ipad>
-                            <tabspa_windows>true</tabspa_windows>
                             <tabspaspa_android>true</tabspaspa_android>
                             <tc_spaandroid>true</tc_spaandroid>
                             <tc_spabb>true</tc_spabb>
                             <tc_spabb_nth>true</tc_spabb_nth>
                             <tc_spaiphone>true</tc_spaiphone>
                             <tc_spawindows>true</tc_spawindows>
-                            <tc_spawinphone8>true</tc_spawinphone8>
                             <tc_xhtml>true</tc_xhtml>
                             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -7523,7 +7054,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <defaults>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>3</top>
+                                <top>0</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </defaults>
@@ -7575,14 +7106,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>true</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -7592,7 +7115,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>0</left>
                                 <right>0</right>
@@ -7616,13 +7138,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -7834,14 +7349,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>false</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -7851,7 +7358,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>true</spaipad_override>
                             <spatablet_android_override>true</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>0</left>
                                 <right>0</right>
@@ -7875,13 +7381,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -8028,7 +7527,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <contentAlign>4</contentAlign>
                         <defaultImageText>error_loading.png</defaultImageText>
                         <animationText>imgloading.png</animationText>
-                        <scale_mode>1</scale_mode>
+                        <scale_mode>0</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                         <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -8086,8 +7585,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <platform>0</platform>
                             <windows_height>0</windows_height>
                             <windows_width>0</windows_width>
-                            <winphone_height>0</winphone_height>
-                            <winphone_width>0</winphone_width>
                         </spa_widthheight>
                         <pbRenderAsAnchor>false</pbRenderAsAnchor>
                         <pbScaleMode>0</pbScaleMode>
@@ -8163,14 +7660,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
                         <tabspa_ipad>true</tabspa_ipad>
-                        <tabspa_windows>true</tabspa_windows>
                         <tabspaspa_android>true</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
                         <tc_spabb_nth>true</tc_spabb_nth>
                         <tc_spaiphone>true</tc_spaiphone>
                         <tc_spawindows>true</tc_spawindows>
-                        <tc_spawinphone8>true</tc_spawinphone8>
                         <tc_xhtml>true</tc_xhtml>
                         <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                         <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -8257,14 +7752,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <unit>%</unit>
                         </palmpre>
                         <palmpre_override>true</palmpre_override>
-                        <spaWinphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </spaWinphone8>
-                        <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
                             <left>0</left>
                             <right>0</right>
@@ -8274,7 +7761,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         </spaipad>
                         <spaipad_override>false</spaipad_override>
                         <spatablet_android_override>false</spatablet_android_override>
-                        <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
                             <right>0</right>
@@ -8298,13 +7784,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
-                        <tabspaWindows>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </tabspaWindows>
                         <thinclient>
                             <left>0</left>
                             <right>0</right>
@@ -8516,14 +7995,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <unit>%</unit>
                         </palmpre>
                         <palmpre_override>false</palmpre_override>
-                        <spaWinphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </spaWinphone8>
-                        <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
                             <left>0</left>
                             <right>0</right>
@@ -8533,7 +8004,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                         </spaipad>
                         <spaipad_override>true</spaipad_override>
                         <spatablet_android_override>true</spatablet_android_override>
-                        <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
                             <right>0</right>
@@ -8557,13 +8027,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabspaAndroid>
-                        <tabspaWindows>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
-                        </tabspaWindows>
                         <thinclient>
                             <left>0</left>
                             <right>0</right>
@@ -8775,14 +8238,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
                             <tabspa_ipad>true</tabspa_ipad>
-                            <tabspa_windows>true</tabspa_windows>
                             <tabspaspa_android>true</tabspaspa_android>
                             <tc_spaandroid>true</tc_spaandroid>
                             <tc_spabb>true</tc_spabb>
                             <tc_spabb_nth>true</tc_spabb_nth>
                             <tc_spaiphone>true</tc_spaiphone>
                             <tc_spawindows>true</tc_spawindows>
-                            <tc_spawinphone8>true</tc_spawinphone8>
                             <tc_xhtml>true</tc_xhtml>
                             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -8869,14 +8330,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>true</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -8886,7 +8339,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -8910,13 +8362,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -9128,14 +8573,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>false</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>1</left>
                                 <right>1</right>
@@ -9145,7 +8582,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -9169,13 +8605,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -9402,14 +8831,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
                             <tabspa_ipad>true</tabspa_ipad>
-                            <tabspa_windows>true</tabspa_windows>
                             <tabspaspa_android>true</tabspaspa_android>
                             <tc_spaandroid>true</tc_spaandroid>
                             <tc_spabb>true</tc_spabb>
                             <tc_spabb_nth>true</tc_spabb_nth>
                             <tc_spaiphone>true</tc_spaiphone>
                             <tc_spawindows>true</tc_spawindows>
-                            <tc_spawinphone8>true</tc_spawinphone8>
                             <tc_xhtml>true</tc_xhtml>
                             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -9496,14 +8923,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>true</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>3</left>
                                 <right>3</right>
@@ -9513,7 +8932,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>true</spaipad_override>
                             <spatablet_android_override>true</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -9537,13 +8955,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -9755,14 +9166,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>false</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>1</left>
                                 <right>1</right>
@@ -9772,7 +9175,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -9796,13 +9198,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>2</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -10030,14 +9425,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
                             <tabspa_ipad>true</tabspa_ipad>
-                            <tabspa_windows>true</tabspa_windows>
                             <tabspaspa_android>true</tabspaspa_android>
                             <tc_spaandroid>true</tc_spaandroid>
                             <tc_spabb>true</tc_spabb>
                             <tc_spabb_nth>true</tc_spabb_nth>
                             <tc_spaiphone>true</tc_spaiphone>
                             <tc_spawindows>true</tc_spawindows>
-                            <tc_spawinphone8>true</tc_spawinphone8>
                             <tc_xhtml>true</tc_xhtml>
                             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -10124,14 +9517,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>true</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -10141,7 +9526,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -10165,13 +9549,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -10383,14 +9760,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <unit>%</unit>
                             </palmpre>
                             <palmpre_override>false</palmpre_override>
-                            <spaWinphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </spaWinphone8>
-                            <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
                                 <left>0</left>
                                 <right>0</right>
@@ -10400,7 +9769,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                             </spaipad>
                             <spaipad_override>false</spaipad_override>
                             <spatablet_android_override>false</spatablet_android_override>
-                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -10424,13 +9792,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
-                            <tabspaWindows>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>%</unit>
-                            </tabspaWindows>
                             <thinclient>
                                 <left>0</left>
                                 <right>0</right>
@@ -10710,14 +10071,12 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
-            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
-            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -10804,14 +10163,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
-            <spaWinphone8>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </spaWinphone8>
-            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -10821,7 +10172,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
-            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -10845,13 +10195,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
-            <tabspaWindows>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -11063,14 +10406,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
-            <spaWinphone8>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </spaWinphone8>
-            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -11080,7 +10415,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
-            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -11104,13 +10438,6 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
-            <tabspaWindows>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <unit>%</unit>
-            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>

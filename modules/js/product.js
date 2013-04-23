@@ -153,7 +153,7 @@ function processResponseFromGetBestBuyReviews (status, responseFromGetBestBuyRev
 			{
 				kony.print ("reviews.length: " + reviews.length);
 				var reviewsList = [];
-				frmProdDetails.totalReviews.text = "Number of Reviews: " + responseFromGetBestBuyReviews.total;
+				frmProdDetails.totalReviews.text = "Number of Reviews: " + reviews.length;
 				for(var i =0;i<reviews.length;i++){
 	 				if (reviews[i]["title"] != "" && reviews[i]["title"] != null){
 	 					var image;
@@ -170,7 +170,7 @@ function processResponseFromGetBestBuyReviews (status, responseFromGetBestBuyRev
 							image = "stars5.png";
 						}
 		 				
-		 				var reviewer = "Submmitted by: " + reviews[i]["reviewer"];
+		 				var reviewer = "Submmitted by: " + reviews[i]["submittedBy"];
 						var catData = {title:reviews[i]["title"], comment:reviews[i]["comment"],
 							rating:image, reviewer:reviewer}
 						reviewsList.push(catData);
