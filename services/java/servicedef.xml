@@ -1,0 +1,85 @@
+<application desc="" id="javaconnector" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="helpcategory_mysql" smscode="" smsenabled="false" type="javaConnector">
+         <service-config>
+            <config-param name="className" value="com.kony.samplejavaservice.HelpCategory"/>
+            <config-param name="methodName" value="HelpCategoryService"/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="sockettimeout" value=""/>
+         </service-config>
+         <service-input/>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="opstatus" sms-name="" src="" target="response"/>
+            <dataset id="helpCategory">
+               <param datatype="string" format="None" formatvalue="" name="hcid" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="hcname" sms-name="" src="" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="helpkeyword_mysql" smscode="" smsenabled="false" type="javaConnector">
+         <service-config>
+            <config-param name="className" value="com.kony.samplejavaservice.HelpKeyword"/>
+            <config-param name="methodName" value="HelpKeywordService"/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="sockettimeout" value=""/>
+         </service-config>
+         <service-input/>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="opstatus" sms-name="" src="" target="response"/>
+            <dataset id="helpKeyword">
+               <param datatype="string" format="None" formatvalue="" name="hkid" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="hkname" sms-name="" src="" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="helprelation_mysql" smscode="" smsenabled="false" type="javaConnector">
+         <service-config>
+            <config-param name="className" value="com.kony.samplejavaservice.HelpRelation"/>
+            <config-param name="methodName" value="HelpRelationService"/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="sockettimeout" value=""/>
+         </service-config>
+         <service-input>
+            <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="" target="" value=""/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="opstatus" sms-name="" src="" target="response"/>
+            <dataset id="helpRelation">
+               <param datatype="string" format="None" formatvalue="" name="name" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="url" sms-name="" src="" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="helptopic_mysql" smscode="" smsenabled="false" type="javaConnector">
+         <service-config>
+            <config-param name="className" value="com.kony.samplejavaservice.HelpTopic"/>
+            <config-param name="methodName" value="HelpTopicService"/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="sockettimeout" value=""/>
+         </service-config>
+         <service-input>
+            <param datatype="string" format="None" formatvalue="" name="id" sms-name="" src="request" target="" value=""/>
+         </service-input>
+         <service-output>
+            <param datatype="string" format="None" formatvalue="" name="opstatus" sms-name="" src="" target="response"/>
+            <dataset id="helpTopic">
+               <param datatype="string" format="None" formatvalue="" name="help_topic_id" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="name" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="help_category_id" sms-name="" src="" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="url" sms-name="" src="" target=""/>
+            </dataset>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>
