@@ -1,0 +1,13 @@
+<globals>
+    <attributes datatype="string" value="cat0000" name="scatID"/>
+    <attributes datatype="string" value="TVs" name="scatName"/>
+    <attributes datatype="string" value="tu48pbdksamsjgvwvgmk34ne" name="key"/>
+    <attributes datatype="string" value="Tvs" name="srchKey"/>
+    <dataset id="resulttable" datatype="collection" value="">
+    <attributes datatype="string" value="" name="id"/>
+    <attributes datatype="string" value="" name="name"/>
+    </dataset>
+    <dataset id="curfrm" datatype="collection" value="">
+    </dataset>
+    <attributes datatype="boolean" value="false" name="srchFlag"/>
+</globals>

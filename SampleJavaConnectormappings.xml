@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="SampleJavaConnector" id="SampleJavaConnector">
-    <container type="form" id="frmCategory" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmKeywords" displayname="Form"/>
-    <container type="form" id="frmTopic" displayname="Form"/>
-    <globalsequences/>
-    <skins/>
-</application>

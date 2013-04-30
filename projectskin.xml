@@ -8,9 +8,9 @@
     <skin name="datagrid_alternate_skin" value="dgRow"/>
     <skin name="textfield_skin" value="tbxNormal"/>
     <skin name="datagrid_header_skin" value="dgHead"/>
-    <skin name="camera_skin" value="camNormal"/>
-    <skin name="segment_sec_skin_focus" value="segHeader"/>
     <skin name="label_skin" value="lblNormal"/>
+    <skin name="segment_sec_skin_focus" value="segHeader"/>
+    <skin name="camera_skin" value="camNormal"/>
     <skin name="calendar_skin" value="calNormal"/>
     <skin name="bb_slider_left_skin_key" value="sliderLeft"/>
     <skin name="form_skin" value="frm"/>
@@ -26,21 +26,21 @@
     <skin name="android_form_title_skin" value="titleBar"/>
     <skin name="phone_skin" value="phoneNormal"/>
     <skin name="datagrid_row_skin_focus" value="dgFocus"/>
-    <skin name="calendar_skin_focus" value="calFocus"/>
     <skin name="textarea2_skin_focus" value="txt2Focus"/>
+    <skin name="calendar_skin_focus" value="calFocus"/>
     <skin name="imagegallery_skin_focus" value="galFocus"/>
     <skin name="textarea_skin_focus" value="txtFocus"/>
-    <skin name="tabpane_inactive_skin" value="tabInactive"/>
     <skin name="listbox_skin" value="listboxNormal"/>
+    <skin name="tabpane_inactive_skin" value="tabInactive"/>
     <skin name="segment_skin_focus" value="segFocus"/>
     <skin name="datagrid_row_skin" value="dgRow"/>
     <skin name="segment2_row_skin" value="seg2Normal"/>
     <skin name="combobox_skin_focus" value="cboxFocus"/>
     <skin name="combobox_skin" value="cboxNormal"/>
-    <skin name="segment2_row_focus_skin" value="seg2Focus"/>
     <skin name="segment2_secheader_skin" value="seg2Header"/>
-    <skin name="android_slider_right_skin" value="sliderRight"/>
+    <skin name="segment2_row_focus_skin" value="seg2Focus"/>
     <skin name="segment_skin" value="segNormal"/>
+    <skin name="android_slider_right_skin" value="sliderRight"/>
     <skin name="tabpane_active_focus_skin" value="tabFocus"/>
     <skin name="bb_slider_right_skin_key" value="sliderRight"/>
     <skin name="button_skin" value="btnNormal"/>
