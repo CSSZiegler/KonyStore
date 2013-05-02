@@ -1,5 +1,4 @@
-
-/*
+/**
 ****************************************************************
 *	Name    : callAppMenu
 *	Author  : Kony Solutions
@@ -12,7 +11,7 @@ function callAppMenu() {
     ];
     kony.application.createAppMenu("KonyBestBuyAppMenu", appMenu, null, null);
 }
-/*
+/**
 ****************************************************************
 *	Name    : home_callback_seq
 *	Author  : Kony Solutions
@@ -25,7 +24,7 @@ function home_callback_seq()
 
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : getCatList
 *	Author  : Kony Solutions
@@ -41,7 +40,7 @@ function getCatList()
 	
 	}
 
-/*
+/**
 ****************************************************************
 *	Name    : catListCallback
 *	Author  : Kony Solutions
@@ -51,6 +50,7 @@ function getCatList()
 function catListCallback(status, gcList)
 {	
 	if (status == 400){
+		
 		if (gcList["opstatus"] == 0) {
 			var tmp =[];
 			var childData=[];
@@ -65,6 +65,7 @@ function catListCallback(status, gcList)
            					}
            					});
 				//#else
+					
 					tmp.push({
 						"categoryName":gcList["category"][i]["name"],
 						"categoryID":gcList["category"][i]["id"]
@@ -101,7 +102,7 @@ function catListCallback(status, gcList)
 	 								            					
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : getSubCatList
 *	Author  : Kony Solutions
@@ -111,12 +112,13 @@ function catListCallback(status, gcList)
 
 function getSubCatList()
 {
+	
 	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: key };
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallback);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : subCatListCallback
 *	Author  : Kony Solutions
@@ -137,6 +139,7 @@ function subCatListCallback(status, gcList)
 							});
 					}	
 					frmSubCat.segcatList.setData(tmp);
+					
 					if(kony.os.deviceInfo().name != "iPad"){
 						frmSubCat.lblSubHeader.text = scatName;
 					}else{

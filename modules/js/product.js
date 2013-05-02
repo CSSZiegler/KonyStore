@@ -1,11 +1,10 @@
-/*
+/**
 ****************************************************************
 *	Name    : getSrchProduct
 *	Author  : Kony Solutions
 *	Purpose : This function invokes BestBuy service to search product.
 ****************************************************************
 */
-
 function getSrchProduct()
 {
 	
@@ -20,7 +19,7 @@ function getSrchProduct()
 		
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : prodListCallback
 *	Author  : Kony Solutions
@@ -84,6 +83,13 @@ function prodListCallback(status, gcList)
 	 }								            					
 }
 
+/**
+****************************************************************
+*	Name    : showProductDetails
+*	Author  : Kony Solutions
+*	Purpose : This function is to show product details of the selected product.
+****************************************************************
+*/
 function showProductDetails(){			
 	frmProdDetails.lblPrice.text = frmProduct.segProdList.selectedItems[0].lblPrice;
 	frmProdDetails.lblSalesPrice.text = frmProduct.segProdList.selectedItems[0].lblSalesPrice;
@@ -118,6 +124,13 @@ function showProductDetails(){
 	showReviews();
 }
 
+/**
+****************************************************************
+*	Name    : showReviews
+*	Author  : Kony Solutions
+*	Purpose : This function is to invoke getProductReviews service.
+****************************************************************
+*/
 function showReviews() {
 	
 	var focusedItem1 = frmProduct.segProdList.selectedItems;
@@ -138,7 +151,14 @@ function showReviews() {
 	
 }
 
-function processResponseFromGetBestBuyReviews (status, responseFromGetBestBuyReviews)
+/**
+****************************************************************
+*	Name    : processResponseFromGetBestBuyReviews
+*	Author  : Kony Solutions
+*	Purpose : This function is to  populate reviews in the product details page.
+****************************************************************
+*/
+function processResponseFromGetBestBuyReviews(status, responseFromGetBestBuyReviews)
 {
 	kony.print ("status: " + status);
 	if(null != status && status == 400)

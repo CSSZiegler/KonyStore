@@ -1,4 +1,4 @@
-/*
+/**
 ****************************************************************
 *	Name    : preShowHome
 *	Author  : Kony Solutions
@@ -6,13 +6,16 @@
 ****************************************************************
 */
 function preShowHome(){
-	hbxImg.setVisibility(true);
-	hbxHeaderBack.setVisibility(false);
+	
+	//#ifdef iphone
+		hbxHeaderBack.setVisibility(false);
+		hbxImg.setVisibility(true);
+	//#endif
 	hbxSearch.setVisibility(true);
 	hbxSearch.txtbxSrch.text="";
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : preShowProduct
 *	Author  : Kony Solutions
@@ -20,12 +23,15 @@ function preShowHome(){
 ****************************************************************
 */
 function preShowProduct(){
-	hbxImg.setVisibility(false);
-	hbxHeaderBack.setVisibility(true);
+	
+	//#ifdef iphone
+		hbxHeaderBack.setVisibility(true);
+		hbxImg.setVisibility(false);
+	//#endif
 	hbxSearch.setVisibility(false);
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : preShowSubcat
 *	Author  : Kony Solutions
@@ -33,24 +39,28 @@ function preShowProduct(){
 ****************************************************************
 */
 function preShowSubCat(){
-	hbxImg.setVisibility(false);
-	hbxHeaderBack.setVisibility(true);
+	
+	//#ifdef iphone
+		hbxHeaderBack.setVisibility(true);
+		hbxImg.setVisibility(false);
+	//#endif
 	hbxSearch.setVisibility(true);
 	hbxSearch.txtbxSrch.text="";
 }
 
-
-/*
+/**
 ****************************************************************
 *	Name    : preShowProdDetails
 *	Author  : Kony Solutions
 *	Purpose : This function is preshow for product details to handle the form pre show logic.
 ****************************************************************
 */
-
 function preShowProdDetails(){
-	hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
-	hbxHeaderBack.btnHeaderBack.setVisibility(true);
+	
+	//#ifdef iphone
+		hbxHeaderBack.setVisibility(true);
+		hbxSearch.setVisibility(false); //setting the search hbox in the form header to false
+	//#endif
 	if(frmProdDetails.lblReview.text=="")
 	{
 		frmProdDetails.lblReview.text="No Reviews";	
@@ -60,6 +70,13 @@ function preShowProdDetails(){
 	frmProdDetails.lblDesc.text = "";
 }
 
+/**
+****************************************************************
+*	Name    : preShowProdDetailsIpad
+*	Author  : Kony Solutions
+*	Purpose : This function is preshow for product details to handle the form pre show logic for Ipad.
+****************************************************************
+*/
 function preShowProdDetailsIpad(){
 	//#ifdef windows8
 	frmProdDetails.title="Kony BestBuy";

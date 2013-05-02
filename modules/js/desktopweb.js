@@ -1,5 +1,5 @@
 
-/*
+/**
 ****************************************************************
 *	Name    : getProductID
 *	Author  : Kony Solutions
@@ -16,14 +16,13 @@ function getProductID(key)
 	}
 }
 
-/*
+/**
 ****************************************************************
 *	Name    : getSubCatListWeb
 *	Author  : Kony Solutions
 *	Purpose : This function invokes BestBuy service for Desktop Web.
 ****************************************************************
 */
-
 function getSubCatListWeb()
 {
 	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: key };
@@ -31,7 +30,7 @@ function getSubCatListWeb()
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
  
- /*
+ /**
 ****************************************************************
 *	Name    : subCatListCallbackWeb
 *	Author  : Kony Solutions
@@ -75,7 +74,7 @@ function subCatListCallbackWeb(status, gcList)
 	 }
 }	 
 
-/*
+/**
 ****************************************************************
 *	Name    : prodListCallback
 *	Author  : Kony Solutions
@@ -126,14 +125,14 @@ function prodListCallbackWeb(status, gcList)
 	 }
 	 								            					
 }	 								            					
-/*
+
+/**
 ****************************************************************
 *	Name    : getSrchProductweb
 *	Author  : Kony Solutions
 *	Purpose : This function invokes BestBuy service.
 ****************************************************************
 */
-
 function getSrchProductweb()
 {
 	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
@@ -143,8 +142,9 @@ function getSrchProductweb()
 	var sProductList = appmiddlewareinvokerasync(sPrdList, srchProdListCallback);
 	scatName = srchKey;
 	
-}	      
-/*
+}	
+      
+/**
 ****************************************************************
 *	Name    : srchProdListCallback
 *	Author  : Kony Solutions
@@ -185,11 +185,6 @@ function srchProdListCallback(status, gcList)
             	alert("Please check network connection and try again.");
             	kony.application.dismissLoadingScreen();    	
    				return;	                 
-	     }
-	                	
-	 }
-	 								            					
-}
-
-
- 
+	     }       	
+	 } 								            					
+} 
