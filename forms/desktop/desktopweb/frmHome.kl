@@ -9091,23 +9091,23 @@
                         <secure_text_entry>false</secure_text_entry>
                         <onClick>
                             <evtSequence>
-                                <actionList xsi:type="eventExpressionAction">
+                                <actionList xsi:type="eventFunctionAction">
                                     <enabled>true</enabled>
                                     <name></name>
-                                    <type>5</type>
-                                    <expr></expr>
-                                    <exprMap>
+                                    <type>6</type>
+                                    <functionName>None</functionName>
+                                    <functionNameMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = frmHome.txtbxSrch1.text;
-frmHome.txtbxSrch1.text="";
-if(srchKey==""||srchKey==null||srchKey==undefined)
-	alert("Enter product name to search !!")
-else
-	getSrchProductweb()
-</value>
+                                            <value>getProductSrch</value>
                                         </entry>
-                                    </exprMap>
+                                    </functionNameMap>
+                                    <paramDataMap>
+                                        <entry>
+                                            <key>js</key>
+                                            <value/>
+                                        </entry>
+                                    </paramDataMap>
                                 </actionList>
                                 <enabled>true</enabled>
                                 <seqname></seqname>
@@ -9184,7 +9184,7 @@ else
                         <android_view>textbox</android_view>
                         <iphone_view>textbox</iphone_view>
                         <ipad_view>textbox</ipad_view>
-                        <spa_view>textbox</spa_view>
+                        <tc_view>textbox</tc_view>
                         <desktopweb_onKeyUp>
                             <evtSequence>
                                 <enabled>true</enabled>
@@ -9824,23 +9824,23 @@ else
                         <parent_contentalignment>middle-center</parent_contentalignment>
                         <event_onClick>
                             <evtSequence>
-                                <actionList xsi:type="eventExpressionAction">
+                                <actionList xsi:type="eventFunctionAction">
                                     <enabled>true</enabled>
                                     <name></name>
-                                    <type>5</type>
-                                    <expr></expr>
-                                    <exprMap>
+                                    <type>6</type>
+                                    <functionName>None</functionName>
+                                    <functionNameMap>
                                         <entry>
                                             <key>js</key>
-                                            <value>srchKey = frmHome.txtbxSrch1.text;
-frmHome.txtbxSrch1.text="";
-if(srchKey==""||srchKey==null||srchKey==undefined)
-	alert("Enter product name to search !!")
-else
-	getSrchProductweb()
-</value>
+                                            <value>getProductSrch</value>
                                         </entry>
-                                    </exprMap>
+                                    </functionNameMap>
+                                    <paramDataMap>
+                                        <entry>
+                                            <key>js</key>
+                                            <value/>
+                                        </entry>
+                                    </paramDataMap>
                                 </actionList>
                                 <enabled>true</enabled>
                                 <seqname></seqname>

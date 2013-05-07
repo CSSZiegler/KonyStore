@@ -86,13 +86,24 @@ function prodListCallbackWeb(status, gcList)
 	
 	if (status == 400){
 			if (gcList["opstatus"] == 0) {
-			var tmp =[];
+			var tmp =[],flag,price,salePrice;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
 				for(var i=0;i<gcList["productsCollection"].length;i++){
+					flag=gcList["productsCollection"][i]["lblOnSale"];
+					if(flag=="true")
+					{
+						price = "";
+						salePrice = "On Sale: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
+					 } 
+					 else {
+						price = "$" + gcList["productsCollection"][i]["lblProductPrice"];
+						salePrice = "";
+					}
 					tmp.push({
 						"prodImg":gcList["productsCollection"][i]["imgProductMediumImage"],
 						"lblPName":gcList["productsCollection"][i]["lblProductName"],
-						"lblPrice":"$"+gcList["productsCollection"][i]["lblProductPrice"],
+						"lblPrice":price,
+						"lblSalesPrice":salePrice,
 						"lblDesc":gcList["productsCollection"][i]["lblProductDescription"],
 						"lblSku":gcList["productsCollection"][i]["sku"],
 						"lblReview":gcList["productsCollection"][i]["lblProductReview"]
@@ -156,13 +167,24 @@ function srchProdListCallback(status, gcList)
 	
 	if (status == 400){
 			if (gcList["opstatus"] == 0) {
-			var tmp =[];
+			var tmp =[],flag,price,salePrice;
 			if ((gcList["productsCollection"] != null || gcList["productsCollection"] != undefined ) && gcList["productsCollection"].length>0 ){
 				for(var i=0;i<gcList["productsCollection"].length;i++){
+				flag=gcList["productsCollection"][i]["lblOnSale"];
+					if(flag=="true")
+					{
+						price = "";
+						salePrice = "On Sale: $" + gcList["productsCollection"][i]["lblProductSalePrice"]+ "!";
+					 } 
+					 else {
+						price = "$" + gcList["productsCollection"][i]["lblProductPrice"];
+						salePrice = "";
+					}
 					tmp.push({
 						"prodImg":gcList["productsCollection"][i]["imgProductMediumImage"],
 						"lblPName":gcList["productsCollection"][i]["lblProductName"],
-						"lblPrice":"$"+gcList["productsCollection"][i]["lblProductPrice"],
+						"lblPrice":price,
+						"lblSalesPrice":salePrice,
 						"lblDesc":gcList["productsCollection"][i]["lblProductDescription"],
 						"lblSku":gcList["productsCollection"][i]["sku"],
 						"lblReview":gcList["productsCollection"][i]["lblProductReview"]
@@ -188,3 +210,89 @@ function srchProdListCallback(status, gcList)
 	     }       	
 	 } 								            					
 } 
+
+/**
+****************************************************************
+*	Name    : showProductDetailsWeb
+*	Author  : Kony Solutions
+*	Purpose : This function is to show product details of the selected product.
+****************************************************************
+*/
+function showProductDetailsWeb(){			
+	frmProdDetails.lblPrice.text = frmProductSrch.segProdList.selectedItems[0].lblPrice;
+	frmProdDetails.lblSalesPrice.text = frmProductSrch.segProdList.selectedItems[0].lblSalesPrice;
+	frmProdDetails.lblDesc.text = frmProductSrch.segProdList.selectedItems[0].lblDesc;
+	frmProdDetails.prdName.text = frmProductSrch.segProdList.selectedItems[0].lblPName;
+	frmProdDetails.prdImg.src = frmProductSrch.segProdList.selectedItems[0].prodImg;
+	
+	var flag = frmProductSrch.segProdList.selectedItems[0].lblReview;
+	frmProdDetails.lblReview.text =flag;
+	if(flag!=null ||flag!="")
+	 flag1 = kony.math.toInteger(kony.os.toNumber(flag));
+	 frmProdDetails.imgReview.setVisibility(true);
+	switch(flag1)
+	{
+		case 1:frmProdDetails.imgReview.src="stars1.png";
+				break;
+		case 2:frmProdDetails.imgReview.src="stars2.png";
+				break;
+		case 3:frmProdDetails.imgReview.src="stars3.png";
+				break;
+		case 4:frmProdDetails.imgReview.src="stars4.png";
+				break;	
+		case 5:frmProdDetails.imgReview.src="stars5.png";
+				break;						
+	}
+	//kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
+	
+	frmProdDetails.totalReviews.text = "Loading...";
+	frmProdDetails.segReviews.removeAll();
+	frmProdDetails.menucontainer.data = frmProductSrch.menucontainer.data 
+	frmProdDetails.show();
+	showReviewsWeb();
+}
+/**
+****************************************************************
+*	Name    : showReviewsWeb
+*	Author  : Kony Solutions
+*	Purpose : This function is to invoke getProductReviews service.
+****************************************************************
+*/
+function showReviewsWeb() {
+	
+	var focusedItem1 = frmProductSrch.segProdList.selectedItems;
+	var sku = focusedItem1[0].lblSku;
+	
+	//var criteria = "(sku=" + sku + ")"; 
+	
+	//kony.print ("Value of currentCategoryId: " + criteria);
+	try
+	{
+		var serviceInputParameters = { serviceID:"getProductReviews", sku:sku, apiKey:key };
+		appmiddlewareinvokerasync(serviceInputParameters, processResponseFromGetBestBuyReviews);
+	}
+	catch (err)
+	{
+		alert("Error"+err);
+	}
+	
+}
+
+/**
+****************************************************************
+*	Name    : getProductSrch
+*	Author  : Kony Solutions
+*	Purpose : This function is to show product list for the given product keyword.
+****************************************************************
+*/
+function getProductSrch()
+{
+	var curForm = kony.application.getCurrentForm();
+	srchKey = curForm.txtbxSrch1.text;
+	curForm.txtbxSrch1.text="";
+	if(srchKey==""||srchKey==null||srchKey==undefined)
+		alert("Enter product name to search !!")
+	else
+		getSrchProductweb()
+	
+}
