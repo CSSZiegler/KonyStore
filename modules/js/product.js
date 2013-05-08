@@ -119,9 +119,8 @@ function showProductDetails(){
 	
 	frmProdDetails.totalReviews.text = "Loading...";
 	frmProdDetails.segReviews.removeAll();
-	frmProdDetails.menucontainer.data = frmProduct.menucontainer.data 
 	frmProdDetails.show();
-		
+	frmProdDetails.menucontainer.data = frmProduct.menucontainer.data ;	
 	showReviews();
 }
 

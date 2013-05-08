@@ -247,8 +247,8 @@ function showProductDetailsWeb(){
 	
 	frmProdDetails.totalReviews.text = "Loading...";
 	frmProdDetails.segReviews.removeAll();
-	frmProdDetails.menucontainer.data = frmProductSrch.menucontainer.data 
 	frmProdDetails.show();
+	frmProdDetails.menucontainer.data = frmProductSrch.menucontainer.data 
 	showReviewsWeb();
 }
 /**
