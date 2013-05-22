@@ -2795,7 +2795,7 @@ kony.application.setCurrentAppMenu("KonyBestBuyAppMenu");</value>
                         <functionNameMap>
                             <entry>
                                 <key>js</key>
-                                <value>getSubCatList</value>
+                                <value>getSubCatList_ipad</value>
                             </entry>
                             <entry>
                                 <key>lua</key>

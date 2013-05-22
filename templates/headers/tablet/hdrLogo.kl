@@ -2473,9 +2473,9 @@
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaipad>
@@ -3537,7 +3537,7 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>0</left>
+                        <left>3</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>

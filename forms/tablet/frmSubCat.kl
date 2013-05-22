@@ -1192,8 +1192,8 @@ frmSubCat.title="Kony BestBuy";</value>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
@@ -3995,7 +3995,7 @@ scatName = frmSubCat.segcatList.selectedItems[0].categoryName;</value>
                         <functionNameMap>
                             <entry>
                                 <key>js</key>
-                                <value>getSubCatList</value>
+                                <value>getSubCatList_ipad</value>
                             </entry>
                             <entry>
                                 <key>lua</key>
