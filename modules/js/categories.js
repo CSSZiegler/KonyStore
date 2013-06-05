@@ -34,7 +34,7 @@ function home_callback_seq()
 
 function getCatList()
 {
-	var catList = { serviceID:"getCategories", apiKey:key };
+	var catList = { serviceID:"getCategories", apiKey:gApiKey };
 	var categoryList = appmiddlewareinvokerasync(catList, catListCallback);
 	kony.application.dismissLoadingScreen();  
 	
@@ -113,14 +113,14 @@ function catListCallback(status, gcList)
 function getSubCatList()
 {
 	
-	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: key };
+	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: gApiKey };
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallback);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
 
 function getSubCatList_ipad()
 {
-	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: key };
+	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: gApiKey };
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallbackIpad);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
@@ -172,7 +172,7 @@ function subCatListCallback(status, gcList)
 	          }
 	          else
 	          {
-	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:key };
+	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
 	           	frmProduct.hboxCat.setVisibility(true);
 	          	//#ifdef windows8
 	          		
@@ -229,7 +229,7 @@ function subCatListCallbackIpad(status, gcList)
 	          }
 	          else
 	          {
-	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:key };
+	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
 	           	frmProduct.hboxCat.setVisibility(true);
 	          	//#ifdef windows8
 	          		

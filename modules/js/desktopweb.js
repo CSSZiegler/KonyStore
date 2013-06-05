@@ -25,7 +25,7 @@ function getProductID(key)
 */
 function getSubCatListWeb()
 {
-	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: key };
+	var subcatList = { serviceID:"getSubCategories", subCat:scatID , apiKey: gApiKey };
 	var subcategoryList = appmiddlewareinvokerasync(subcatList, subCatListCallbackWeb);
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 }
@@ -59,7 +59,7 @@ function subCatListCallbackWeb(status, gcList)
 	          }
 	          else
 	          {
-	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:key };
+	          	var prodList = { serviceID:"getProducts", productID:scatID ,apiKey:gApiKey };
 	          	var ProductList = appmiddlewareinvokerasync(prodList, prodListCallbackWeb);
 	          	kony.application.dismissLoadingScreen(); 
 	          				          	          
@@ -147,7 +147,7 @@ function prodListCallbackWeb(status, gcList)
 function getSrchProductweb()
 {
 	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
-	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:key };
+	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:gApiKey };
 	frmProductSrch.lblSrch.text="Results for '"+srchKey+"'";
 	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	var sProductList = appmiddlewareinvokerasync(sPrdList, srchProdListCallback);
@@ -268,7 +268,7 @@ function showReviewsWeb() {
 	//kony.print ("Value of currentCategoryId: " + criteria);
 	try
 	{
-		var serviceInputParameters = { serviceID:"getProductReviews", sku:sku, apiKey:key };
+		var serviceInputParameters = { serviceID:"getProductReviews", sku:sku, apiKey:gApiKey };
 		appmiddlewareinvokerasync(serviceInputParameters, processResponseFromGetBestBuyReviews);
 	}
 	catch (err)

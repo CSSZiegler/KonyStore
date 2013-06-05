@@ -6,11 +6,13 @@
         <cacheduration></cacheduration>
         <cacheable>false</cacheable>
         <dataprovider></dataprovider>
+        <dcResponse/>
         <encryptPwd>true</encryptPwd>
         <escapeXML>false</escapeXML>
         <group>Bestbuy</group>
         <httpmethod></httpmethod>
         <id>getProductReviews</id>
+        <ignoreProxy>false</ignoreProxy>
         <inparam>
             <category></category>
             <datatype>string</datatype>
@@ -52,7 +54,7 @@
             <srcformatvalue></srcformatvalue>
             <target></target>
             <targetdatatype></targetdatatype>
-            <testvalue>tu48pbdksamsjgvwvgmk34ne</testvalue>
+            <testvalue></testvalue>
             <value></value>
         </inparam>
         <intemplate></intemplate>

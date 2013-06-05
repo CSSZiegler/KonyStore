@@ -1,7 +1,7 @@
 <globals>
     <attributes datatype="string" value="cat0000" name="scatID"/>
     <attributes datatype="string" value="TVs" name="scatName"/>
-    <attributes datatype="string" value="tu48pbdksamsjgvwvgmk34ne" name="key"/>
+    <attributes datatype="string" value="" name="gApiKey"/>
     <attributes datatype="string" value="Tvs" name="srchKey"/>
     <dataset id="resulttable" datatype="collection" value="">
     <attributes datatype="string" value="" name="id"/>

@@ -9,7 +9,7 @@ function getSrchProduct()
 {
 	
 	var tmpkey = kony.string.replace(kony.string.trim(srchKey)," ","%20");
-	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:key };
+	var sPrdList = { serviceID:"productSearch",keyword:tmpkey, apiKey:gApiKey };
 	frmProduct.hboxCat.setVisibility(false);
 	frmProduct.hbxSrch.setVisibility(true); 
 	frmProduct.lblSrch.text="Results for '"+srchKey+"'";
@@ -141,7 +141,7 @@ function showReviews() {
 	//kony.print ("Value of currentCategoryId: " + criteria);
 	try
 	{
-		var serviceInputParameters = { serviceID:"getProductReviews", sku:sku, apiKey:key };
+		var serviceInputParameters = { serviceID:"getProductReviews", sku:sku, apiKey:gApiKey };
 		appmiddlewareinvokerasync(serviceInputParameters, processResponseFromGetBestBuyReviews);
 	}
 	catch (err)
