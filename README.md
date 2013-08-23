@@ -17,3 +17,4 @@ Steps to get the API key:
  
 # Supported platforms:
  * iPhone
+ * Android
