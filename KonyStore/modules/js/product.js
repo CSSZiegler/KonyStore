@@ -61,7 +61,8 @@ function prodListCallback(status, gcList)
 					}	
 					frmProduct.segProdList.setData(tmp);
 					frmProduct.segProdList.setVisibility(true);
-					frmProduct.lblInfo.setVisibility(false);             
+					frmProduct.lblInfo.setVisibility(false);  
+					frmProduct.hbxBord.setVisibility(false);          
 	          }
 	         else
 	         {
@@ -69,6 +70,7 @@ function prodListCallback(status, gcList)
 		         frmProduct.lblInfo.setVisibility(true);
 		         frmProduct.segProdList.setData([]); 
 		         frmProduct.segProdList.setVisibility(false);
+		         frmProduct.hbxBord.setVisibility(true);
 	         }
 	         	frmProduct.lblcate.text = "Category: "+scatName
 	         	frmProduct.title = scatName;
@@ -200,6 +202,7 @@ function processResponseFromGetBestBuyReviews(status, responseFromGetBestBuyRevi
 				}
 				kony.print ("reviewsList: " + reviewsList);
 				frmProdDetails.segReviews.setData(reviewsList);
+                  
 			}
 			else
 			{

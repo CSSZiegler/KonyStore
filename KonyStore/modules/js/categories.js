@@ -51,9 +51,9 @@ function getCatList()
 {
 	var catList = { serviceID:"getCategories", apiKey:gApiKey };
 	var categoryList = appmiddlewareinvokerasync(catList, catListCallback);
-	kony.application.dismissLoadingScreen();  
+	kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	
-	}
+}
 
 /**
 ****************************************************************

@@ -92,19 +92,19 @@
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
-            <tc_spaandroid>true</tc_spaandroid>
-            <tc_spabb>true</tc_spabb>
-            <tc_spabb_nth>true</tc_spabb_nth>
-            <tc_spaiphone>true</tc_spaiphone>
-            <tc_spawindows>true</tc_spawindows>
-            <tc_spawinphone8>true</tc_spawinphone8>
-            <tc_xhtml>true</tc_xhtml>
+            <tc_spaandroid>false</tc_spaandroid>
+            <tc_spabb>false</tc_spabb>
+            <tc_spabb_nth>false</tc_spabb_nth>
+            <tc_spaiphone>false</tc_spaiphone>
+            <tc_spawindows>false</tc_spawindows>
+            <tc_spawinphone8>false</tc_spawinphone8>
+            <tc_xhtml>false</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
             <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
             <tc_xhtml_advnth>true</tc_xhtml_advnth>
-            <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-            <tc_xhtml_js>true</tc_xhtml_js>
+            <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+            <tc_xhtml_js>false</tc_xhtml_js>
             <wrapper_android>true</wrapper_android>
             <wrapper_android_tab>true</wrapper_android_tab>
             <wrapper_bb>true</wrapper_bb>
@@ -454,20 +454,6 @@
         </preShow_root>
         <init>
             <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
-                        <entry>
-                            <key>js</key>
-                            <value>//if(kony.os.deviceInfo().name != "android")
-kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-	</value>
-                        </entry>
-                    </exprMap>
-                </actionList>
                 <actionList xsi:type="eventFunctionAction">
                     <enabled>true</enabled>
                     <name></name>
@@ -748,7 +734,7 @@ kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -3008,11 +2994,11 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
                 </rendererData>
                 <margins>
                     <android>
-                        <left>20</left>
+                        <left>3</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </android>
                     <android_override>true</android_override>
                     <bb>
@@ -3275,10 +3261,10 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
                 </margins>
                 <paddings>
                     <android>
-                        <left>6</left>
-                        <right>6</right>
-                        <top>15</top>
-                        <bottom>15</bottom>
+                        <left>3</left>
+                        <right>3</right>
+                        <top>10</top>
+                        <bottom>10</bottom>
                         <unit>px</unit>
                     </android>
                     <android_override>true</android_override>
@@ -3578,6 +3564,7 @@ scatName = frmHome.segcatList.selectedItems[0].categoryName;
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

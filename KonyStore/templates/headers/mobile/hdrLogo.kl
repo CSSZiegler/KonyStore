@@ -3417,6 +3417,9 @@ else
                 <placeholder>Enter Keywords</placeholder>
                 <keyboard_type>0</keyboard_type>
                 <overrideProperties>KTextBox2.android_placeholderSkin</overrideProperties>
+                <overrideProperties>KTextBox2.android_view</overrideProperties>
+                <overrideProperties>KTextBox2.tc_view</overrideProperties>
+                <overrideProperties>KTextBox2.view</overrideProperties>
                 <onTextChange>
                     <evtSequence>
                         <enabled>true</enabled>
@@ -3490,7 +3493,7 @@ else
                 <android_view>textbox</android_view>
                 <iphone_view>textbox</iphone_view>
                 <ipad_view>textbox</ipad_view>
-                <tc_view>textbox</tc_view>
+                <tc_view>searchbox</tc_view>
                 <desktopweb_onKeyUp>
                     <evtSequence>
                         <enabled>true</enabled>
