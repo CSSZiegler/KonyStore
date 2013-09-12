@@ -15,5 +15,6 @@ Steps to get the API key:
 - After getting your API key, input the key in the application API Screen.
  
 # Supported platforms:
- * iPhone
+**Mobile**
  * Android
+ * iPhone
