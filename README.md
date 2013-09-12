@@ -3,7 +3,6 @@ KonyStore
 
 This application will showcase web services(Best buy service)
 
-Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 
 # Purpose
 The purpose of this application is to showcase XML service of BestBuy API's 
